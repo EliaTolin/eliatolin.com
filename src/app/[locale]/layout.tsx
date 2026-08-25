@@ -2,26 +2,24 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
-import { Inter, Instrument_Serif } from 'next/font/google'
+import { Bricolage_Grotesque, Onest } from 'next/font/google'
 
 import { localePath, routing, type Locale } from '@/i18n/routing'
 import { siteConfig } from '@/config/site'
-import { ThemeScript } from '@/components/theme-script'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
 
 import '../globals.css'
 
-const inter = Inter({
+const onest = Onest({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-onest',
   display: 'swap',
 })
 
-const display = Instrument_Serif({
+const bricolage = Bricolage_Grotesque({
   subsets: ['latin'],
-  weight: '400',
-  variable: '--font-display',
+  variable: '--font-bricolage',
   display: 'swap',
 })
 
@@ -81,11 +79,8 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       suppressHydrationWarning
-      className={`${inter.variable} ${display.variable}`}
+      className={`${onest.variable} ${bricolage.variable}`}
     >
-      <head>
-        <ThemeScript />
-      </head>
       <body className="flex min-h-dvh flex-col">
         <NextIntlClientProvider>
           <SiteHeader />

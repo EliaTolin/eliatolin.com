@@ -1,32 +1,185 @@
 {
   "metadata": {
-    "title": "Elia Tolin",
-    "description": "Ingegnere del software e imprenditore. Costruisco prodotti digitali e sistemi su cui le aziende possono contare.",
+    "title": "Elia Tolin — Computer Scientist",
+    "description": "Classe 1999. Ho iniziato a programmare a 16 anni, a 17 ho fondato la mia prima startup. Oggi circa 234.000 persone usano software che ho scritto.",
     "titleTemplate": "%s · Elia Tolin"
   },
   "nav": {
-    "home": "Home",
-    "about": "Chi sono",
-    "openMenu": "Apri il menu",
-    "closeMenu": "Chiudi il menu",
-    "switchLanguage": "Cambia lingua",
-    "toggleTheme": "Cambia tema"
+    "story": "Storia",
+    "roles": "Ruoli",
+    "projects": "Progetti",
+    "business": "Per le aziende",
+    "contact": "Contatti",
+    "switchLanguage": "Cambia lingua"
   },
-  "home": {
-    "eyebrow": "Software engineer & imprenditore",
-    "title": "Elia Tolin",
-    "lead": "Costruisco prodotti digitali e sistemi su cui le aziende possono contare — dall'idea alla produzione.",
-    "primaryCta": "Chi sono",
-    "secondaryCta": "Scrivimi"
+  "hero": {
+    "hello": "Ciao, sono Elia 👋",
+    "title": "computer scientist",
+    "headlineStart": "Costruisco prodotti che nascono da ",
+    "headlineHighlight": "problemi che avevo io",
+    "headlineEnd": ".",
+    "roles": "Head of Tech di <bd>Builtdifferent</bd>, co-founder e CTO di <er>Ermanno</er>, founder di <au>Aurora Digital</au> e di <fm>Flutter Modena</fm>.",
+    "flagStart": "Circa ",
+    "flagNumber": "234.000 persone",
+    "flagMiddle": " usano software che ho scritto",
+    "flagNote": " — tra prodotti miei e piattaforme costruite per le aziende.",
+    "scrollCue": "La mia storia in 30 secondi ↓",
+    "photoAlt": "Ritratto di Elia Tolin"
   },
-  "about": {
-    "title": "Chi sono",
-    "lead": "Due righe su di me, sostituiscile quando il contenuto definitivo è pronto.",
-    "body": "Questa pagina è un segnaposto. Il testo definitivo vive in messages/it.json e messages/en.json, così la struttura resta separata dal contenuto."
+  "story": {
+    "title": "In 30 secondi",
+    "steps": [
+      {
+        "emoji": "👶",
+        "tone": "accent",
+        "title": "1999 — Sanremo",
+        "text": "Cresco tra la Liguria e le colline reggiane costruendo archi e oggetti. Mi interessava fare, non guardare."
+      },
+      {
+        "emoji": "💻",
+        "tone": "mint",
+        "title": "A 16 anni scopro la programmazione",
+        "text": "All'istituto tecnico di Sassuolo. Da lì non ho più smesso."
+      },
+      {
+        "emoji": "🚀",
+        "tone": "accent",
+        "title": "A 17 la prima startup",
+        "text": "Una piattaforma per gli oggetti smarriti. Email a freddo e telefonate mi portano fino a un assessore del Comune di Milano — era più grande di me ed è morta lì. La lezione no: se scrivi a tutti, qualcuno risponde."
+      },
+      {
+        "emoji": "🏭",
+        "tone": "mint",
+        "title": "A 20 entro in Modula",
+        "text": "Leader mondiale nei magazzini automatici verticali. Automazione industriale in C++ e C#, computer vision, il porting di un intero sistema su Linux. Intanto mi pago l'università da solo: sette anni a Unimore, senza mai smettere di lavorare."
+      },
+      {
+        "emoji": "💉",
+        "tone": "accent",
+        "title": "2021 — Status Vaccini",
+        "text": "La prima app in Italia per seguire la campagna vaccinale. Open source, in Flutter. Ne parlano giornali e telegiornali."
+      },
+      {
+        "emoji": "🫂",
+        "tone": "mint",
+        "title": "2022 — Flutter Modena e partita IVA",
+        "text": "Fondo il meetup ufficiale Flutter riconosciuto da Google e apro la partita IVA. L'anno dopo lascio il posto fisso.",
+        "celebration": "Oggi è la community Flutter più attiva d'Italia 🎉"
+      },
+      {
+        "emoji": "💪",
+        "tone": "accent",
+        "title": "Dal 2023 — Head of Tech di Builtdifferent",
+        "text": "La piattaforma di coaching fitness e nutrizione con oltre 50.000 persone attive ogni mese."
+      },
+      {
+        "emoji": "📱",
+        "tone": "mint",
+        "title": "Oggi costruisco prodotti miei",
+        "text": "Ognuno nato da un problema che avevo io: non trovavo l'app che mi serviva, quindi l'ho scritta. E guido la tecnologia di Ermanno, una startup di logistica.",
+        "celebration": "Circa 234.000 persone usano software che ho scritto 🎉"
+      }
+    ]
+  },
+  "roles": {
+    "title": "I ruoli di oggi",
+    "items": [
+      {
+        "name": "Builtdifferent",
+        "role": "Head of Tech · dal 2023",
+        "tone": "accent",
+        "text": "Coaching fitness e nutrizione costruito da professionisti veri, non da algoritmi. Guido la tecnologia della piattaforma.",
+        "metric": "+50.000",
+        "metricLabel": "persone attive ogni mese"
+      },
+      {
+        "name": "Ermanno",
+        "role": "Co-founder & CTO",
+        "tone": "mint",
+        "text": "Le spedizioni si smistano da sole: dai DDT del gestionale ai mezzi, ai corrieri, alla dashboard.",
+        "metric": "Startup",
+        "metricLabel": "di logistica"
+      },
+      {
+        "name": "Aurora Digital",
+        "role": "Founder · dal 2022",
+        "tone": "accent",
+        "text": "La mia attività di consulenza: sviluppo software su misura e formazione AI per i team delle aziende.",
+        "metric": "Consulenza",
+        "metricLabel": "e formazione"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Le cose che ho costruito",
+    "note": "Numeri veri, aggiornati ad agosto 2026.",
+    "items": [
+      {
+        "emoji": "📻",
+        "tone": "mint",
+        "name": "Quiz Radioamatori",
+        "text": "L'app per l'esame da radioamatore che non esisteva negli store: l'ho scritta mentre studiavo per l'esame.",
+        "metric": "~6.000 utenti"
+      },
+      {
+        "emoji": "🗼",
+        "tone": "accent",
+        "name": "HamQRG",
+        "text": "I ripetitori radio intorno a te, in tutto il mondo. Gratuita, con un livello Pro opzionale.",
+        "metric": "~1.500 attivi/mese"
+      },
+      {
+        "emoji": "📞",
+        "tone": "mint",
+        "name": "Tepio",
+        "text": "Prepara le cold call con un brief AI per ogni chiamata. Lo usa ogni giorno il team di Ermanno.",
+        "metric": "SaaS"
+      },
+      {
+        "emoji": "⚡",
+        "tone": "accent",
+        "name": "ZTL Elettrica",
+        "text": "Le ZTL e i parcheggi per le auto elettriche, città per città, su un'unica mappa. Gratis.",
+        "metric": "servizio pubblico"
+      },
+      {
+        "emoji": "🛢️",
+        "tone": "mint",
+        "name": "Acetaia",
+        "text": "Le botti di aceto balsamico si gestivano su Excel o su carta. Ora no.",
+        "metric": "~150 utenti"
+      }
+    ]
+  },
+  "openSource": {
+    "title": "Quello che restituisco",
+    "body": "Mantengo <rc>remote_caching</rc>, un pacchetto Flutter finito <strong>citato nella documentazione ufficiale di Flutter</strong>. Il codice di <sv>Status Vaccini</sv> è interamente open source, come <sw>Supawho</sw>. E ogni mese organizzo gli incontri di <fm>Flutter Modena</fm> con la community."
+  },
+  "business": {
+    "title": "Cosa faccio per le aziende",
+    "intro": "Con Aurora lavoro con le aziende dal 2022. Due cose, fatte bene:",
+    "dev": {
+      "title": "Sviluppo software su misura",
+      "text": "App mobile in Flutter, piattaforme web con Next.js e Supabase, firmware su ESP32 e STM32. Copro tutta la filiera: ",
+      "highlight": "dal firmware sul microcontrollore all'app che l'utente tocca con il dito."
+    },
+    "training": {
+      "title": "Formazione AI per team di sviluppo",
+      "text": "Tre giornate intensive: fondamenta dell'AI generativa, metodo Spec-Driven Development, laboratorio su un caso reale del team. ",
+      "highlight": "Processi strutturati, contro il vibe coding."
+    },
+    "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness e e-commerce.",
+    "ctaQuestion": "Hai un progetto o vuoi formare il tuo team?",
+    "ctaAction": "Scrivimi"
+  },
+  "contact": {
+    "title": "Costruiamo qualcosa insieme?",
+    "text": "Per un progetto, una collaborazione o anche solo per confrontarci.",
+    "cta": "Scrivimi 👋"
   },
   "footer": {
-    "rights": "Tutti i diritti riservati.",
-    "sourceCode": "Codice sorgente"
+    "copyright": "© {year} Elia Tolin",
+    "openSource": "Il sito è open source"
   },
   "notFound": {
     "title": "Pagina non trovata",

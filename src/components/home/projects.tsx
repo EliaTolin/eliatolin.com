@@ -1,0 +1,41 @@
+import { useTranslations } from 'next-intl'
+import { Section, SectionTitle, Tile } from '@/components/home/section'
+
+type Project = {
+  emoji: string
+  tone: 'accent' | 'mint'
+  name: string
+  text: string
+  metric: string
+}
+
+export function Projects() {
+  const t = useTranslations('projects')
+  const items = t.raw('items') as Project[]
+
+  return (
+    <Section id="projects" className="pt-32">
+      <SectionTitle>{t('title')}</SectionTitle>
+      <p className="text-muted-foreground mt-3 text-[17px]">{t('note')}</p>
+      <div className="mt-11 flex flex-col">
+        {items.map((item) => (
+          <div
+            key={item.name}
+            className="flex flex-col gap-4 border-t py-6 last:border-b sm:flex-row sm:items-center sm:gap-6 sm:px-2"
+          >
+            <Tile tone={item.tone} className="text-[22px]">
+              {item.emoji}
+            </Tile>
+            <div className="flex-1">
+              <span className="font-display text-xl font-bold">{item.name}</span>
+              <p className="text-muted-foreground mt-1 text-[15px] leading-relaxed">
+                {item.text}
+              </p>
+            </div>
+            <span className="text-sm font-semibold whitespace-nowrap">{item.metric}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+  )
+}

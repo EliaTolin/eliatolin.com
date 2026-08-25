@@ -11,9 +11,18 @@ export const siteConfig = {
   // Official public contact address.
   email: 'elia.tolin@auroradigital.it',
   links: {
-    github: 'https://github.com/EliaTolin',
-    linkedin: 'https://www.linkedin.com/in/eliatolin/',
+    github: 'https://github.com/eliatolin',
+    linkedin: 'https://it.linkedin.com/in/eliatolin',
     repository: 'https://github.com/EliaTolin/eliatolin.com',
+    builtdifferent: 'https://builtdifferent.it',
+    ermanno: 'https://ermannologistica.it',
+    aurora: 'https://auroradigital.it',
+    flutterModena: 'https://www.meetup.com/flutter-modena/',
+    remoteCaching: 'https://pub.dev/packages/remote_caching',
+    statusVaccini: 'https://github.com/EliaTolin/StatusVaccini',
+    supawho: 'https://github.com/EliaTolin/supawho',
+    tepio: 'https://trytepio.com',
+    ztlElettrica: 'https://ztlelettrica.it',
   },
 } as const
 

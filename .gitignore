@@ -50,3 +50,8 @@ yarn-error.log*
 CONTENUTI-SITO.md
 /private/
 *.private.md
+
+# internal product/design notes — carry private constraints and NDA context
+PRODUCT.md
+DESIGN.md
+.impeccable/

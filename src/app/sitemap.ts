@@ -3,7 +3,7 @@ import { localePath, routing } from '@/i18n/routing'
 import { siteConfig } from '@/config/site'
 
 // Every static route of the site, without its locale prefix.
-const routes = ['', '/about'] as const
+const routes = [''] as const
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routing.locales.flatMap((locale) =>
