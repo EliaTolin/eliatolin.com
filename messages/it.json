@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Elia Tolin",
+    "description": "Ingegnere del software e imprenditore. Costruisco prodotti digitali e sistemi su cui le aziende possono contare.",
+    "titleTemplate": "%s · Elia Tolin"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi sono",
+    "openMenu": "Apri il menu",
+    "closeMenu": "Chiudi il menu",
+    "switchLanguage": "Cambia lingua",
+    "toggleTheme": "Cambia tema"
+  },
+  "home": {
+    "eyebrow": "Software engineer & imprenditore",
+    "title": "Elia Tolin",
+    "lead": "Costruisco prodotti digitali e sistemi su cui le aziende possono contare — dall'idea alla produzione.",
+    "primaryCta": "Chi sono",
+    "secondaryCta": "Scrivimi"
+  },
+  "about": {
+    "title": "Chi sono",
+    "lead": "Due righe su di me, sostituiscile quando il contenuto definitivo è pronto.",
+    "body": "Questa pagina è un segnaposto. Il testo definitivo vive in messages/it.json e messages/en.json, così la struttura resta separata dal contenuto."
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati.",
+    "sourceCode": "Codice sorgente"
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "description": "L'indirizzo che hai aperto non esiste, o non esiste più.",
+    "cta": "Torna alla home"
+  }
+}

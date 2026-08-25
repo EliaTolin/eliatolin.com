@@ -1,0 +1,13 @@
+# Local check that the production image behaves.
+# Coolify builds from the Dockerfile directly and does not need this file.
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SITE_URL: http://localhost:3000
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped

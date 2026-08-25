@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Elia Tolin",
+    "description": "Software engineer and entrepreneur. I build digital products and systems companies can rely on.",
+    "titleTemplate": "%s · Elia Tolin"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Switch language",
+    "toggleTheme": "Toggle theme"
+  },
+  "home": {
+    "eyebrow": "Software engineer & entrepreneur",
+    "title": "Elia Tolin",
+    "lead": "I build digital products and systems companies can rely on — from the idea all the way to production.",
+    "primaryCta": "About me",
+    "secondaryCta": "Get in touch"
+  },
+  "about": {
+    "title": "About",
+    "lead": "A couple of lines about me — replace this once the real copy is ready.",
+    "body": "This page is a placeholder. The real copy lives in messages/it.json and messages/en.json, which keeps structure and content apart."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "sourceCode": "Source code"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The address you opened doesn't exist, or doesn't exist anymore.",
+    "cta": "Back to home"
+  }
+}
