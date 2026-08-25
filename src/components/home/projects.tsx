@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import { Section, SectionTitle, Tile } from '@/components/home/section'
+import { LogoTile, Section, SectionTitle } from '@/components/home/section'
 
 type Project = {
   emoji: string
@@ -23,9 +23,12 @@ export function Projects() {
             key={item.name}
             className="flex flex-col gap-4 border-t py-6 last:border-b sm:flex-row sm:items-center sm:gap-6 sm:px-2"
           >
-            <Tile tone={item.tone} className="text-[22px]">
-              {item.emoji}
-            </Tile>
+            <LogoTile
+              name={item.name}
+              tone={item.tone}
+              fallback={item.emoji}
+              className="text-[22px]"
+            />
             <div className="flex-1">
               <span className="font-display text-xl font-bold">{item.name}</span>
               <p className="text-muted-foreground mt-1 text-[15px] leading-relaxed">

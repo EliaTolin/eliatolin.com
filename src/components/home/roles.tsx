@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import { Section, SectionTitle, Tile } from '@/components/home/section'
+import { LogoTile, Section, SectionTitle } from '@/components/home/section'
 
 type Role = {
   name: string
@@ -21,13 +21,16 @@ export function Roles() {
         {items.map((item) => (
           <div key={item.name} className="bg-surface rounded-[20px] border p-7">
             <div className="flex items-center gap-3.5">
-              {/* Logo placeholder: swap for the real logo asset when provided. */}
-              <Tile
+              <LogoTile
+                name={item.name}
                 tone={item.tone}
-                className="text-faint-foreground rounded-xl text-xs font-semibold"
-              >
-                logo
-              </Tile>
+                fallback={
+                  <span className="text-faint-foreground text-xs font-semibold">
+                    logo
+                  </span>
+                }
+                className="rounded-xl"
+              />
               <div>
                 <div className="font-display text-xl font-bold">{item.name}</div>
                 <div className="text-muted-foreground mt-0.5 text-sm">{item.role}</div>

@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react'
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
+import { logos } from '@/config/logos'
 
 export function Section({
   id,
@@ -45,6 +47,50 @@ export function Tile({
       )}
     >
       {children}
+    </div>
+  )
+}
+
+/**
+ * Tile that shows the entity's logo when one is registered, and falls back
+ * to the emoji/placeholder tile otherwise.
+ */
+export function LogoTile({
+  name,
+  tone,
+  fallback,
+  className,
+}: {
+  name: string
+  tone: 'accent' | 'mint'
+  fallback: ReactNode
+  className?: string
+}) {
+  const logo = logos[name]
+
+  if (!logo) {
+    return (
+      <Tile tone={tone} className={className}>
+        {fallback}
+      </Tile>
+    )
+  }
+
+  return (
+    <div
+      className={cn(
+        'flex size-13 shrink-0 items-center justify-center overflow-hidden rounded-2xl',
+        logo.bg === 'light' && 'bg-foreground p-1.5',
+        className,
+      )}
+    >
+      <Image
+        src={logo.src}
+        alt={`Logo ${name}`}
+        width={52}
+        height={52}
+        className="size-full object-contain"
+      />
     </div>
   )
 }
