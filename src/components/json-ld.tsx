@@ -16,7 +16,6 @@ export function JsonLd({ locale }: { locale: Locale }) {
     image: `${siteConfig.url}/photos/elia.jpg`,
     jobTitle: 'Computer Scientist',
     description: descriptions[locale],
-    email: `mailto:${siteConfig.email}`,
     birthPlace: { '@type': 'Place', name: 'Sanremo, Italia' },
     alumniOf: {
       '@type': 'CollegeOrUniversity',
