@@ -51,7 +51,8 @@
         "emoji": "🏭",
         "tone": "mint",
         "title": "At 20 I joined Modula SpA",
-        "text": "A world leader in vertical automated warehouses. Industrial automation in C++ and C#, computer vision, porting an entire system to Linux. Meanwhile I paid my own way through university: six years, working full time."
+        "text": "A world leader in vertical automated warehouses. Industrial automation in C++ and C#, computer vision, porting an entire system to Linux. Meanwhile I paid my own way through university: six years, working full time.",
+        "logo": "Modula SpA"
       },
       {
         "emoji": "💉",
@@ -63,7 +64,8 @@
         "emoji": "🌅",
         "tone": "mint",
         "title": "2022 — Aurora Digital is born",
-        "text": "Nine months after Status Vaccini I registered as self-employed and founded Aurora Digital — still an employee, still a student. A year later I left my job: since then I've worked with companies as a developer and consultant."
+        "text": "Nine months after Status Vaccini I registered as self-employed and founded Aurora Digital — still an employee, still a student. A year later I left my job: since then I've worked with companies as a developer and consultant.",
+        "logo": "Aurora Digital"
       },
       {
         "emoji": "🫂",
@@ -76,7 +78,8 @@
         "emoji": "💪",
         "tone": "mint",
         "title": "Since 2023 — Head of Tech at Builtdifferent",
-        "text": "A fitness and nutrition coaching platform with over 50,000 monthly active users."
+        "text": "A fitness and nutrition coaching platform with over 50,000 monthly active users.",
+        "logo": "Builtdifferent"
       },
       {
         "emoji": "📱",

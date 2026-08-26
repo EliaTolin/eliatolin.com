@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import { Section, SectionTitle, Tile } from '@/components/home/section'
+import { LogoTile, Section, SectionTitle, Tile } from '@/components/home/section'
 import { cn } from '@/lib/utils'
 
 type Step = {
@@ -8,6 +8,8 @@ type Step = {
   title: string
   text: string
   celebration?: string
+  /** Key into the logos map; the emoji tile is the fallback. */
+  logo?: string
 }
 
 export function Story() {
@@ -20,7 +22,11 @@ export function Story() {
       <div className="mt-13 flex flex-col gap-11">
         {steps.map((step) => (
           <div key={step.title} className="flex items-start gap-6">
-            <Tile tone={step.tone}>{step.emoji}</Tile>
+            {step.logo ? (
+              <LogoTile name={step.logo} tone={step.tone} fallback={step.emoji} />
+            ) : (
+              <Tile tone={step.tone}>{step.emoji}</Tile>
+            )}
             <div>
               <h3 className="font-display mt-1 text-2xl font-bold">{step.title}</h3>
               <p className="text-muted-foreground mt-2 text-[17px] leading-relaxed">
