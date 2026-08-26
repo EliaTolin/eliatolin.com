@@ -14,7 +14,7 @@
   },
   "hero": {
     "hello": "Hi, I'm Elia 👋",
-    "title": "computer scientist",
+    "title": "computer scientist & independent consultant",
     "headlineStart": "I build products born from ",
     "headlineHighlight": "problems I had myself",
     "headlineEnd": ".",
@@ -195,5 +195,8 @@
     "title": "Page not found",
     "description": "The address you opened doesn't exist, or doesn't exist anymore.",
     "cta": "Back to home"
+  },
+  "press": {
+    "title": "In the press"
   }
 }
