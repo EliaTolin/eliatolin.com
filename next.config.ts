@@ -10,9 +10,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   typedRoutes: true,
-  images: {
-    remotePatterns: [{ protocol: 'https', hostname: 'img.logo.dev' }],
-  },
   // Pin the workspace root: without it Turbopack walks up and picks a lockfile
   // outside the project.
   turbopack: {

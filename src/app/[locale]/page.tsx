@@ -3,7 +3,7 @@ import { use } from 'react'
 
 import { Hero } from '@/components/home/hero'
 import { Story } from '@/components/home/story'
-import { PressMarquee, PressWordmarks } from '@/components/home/press-marquee'
+import { PressMarquee } from '@/components/home/press-marquee'
 import { Roles } from '@/components/home/roles'
 import { Projects } from '@/components/home/projects'
 import { OpenSource } from '@/components/home/open-source'
@@ -18,7 +18,6 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
     <>
       <Hero />
       <PressMarquee />
-      <PressWordmarks />
       <Story />
       <Roles />
       <Projects />
