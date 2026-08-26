@@ -218,5 +218,8 @@
     "title": "Pagina non trovata",
     "description": "L'indirizzo che hai aperto non esiste, o non esiste più.",
     "cta": "Torna alla home"
+  },
+  "press": {
+    "title": "Ne hanno scritto"
   }
 }

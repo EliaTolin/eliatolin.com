@@ -218,5 +218,8 @@
     "title": "Page not found",
     "description": "The address you opened doesn't exist, or doesn't exist anymore.",
     "cta": "Back to home"
+  },
+  "press": {
+    "title": "In the press"
   }
 }
