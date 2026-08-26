@@ -4,8 +4,7 @@
  *
  * `bg` controls the tile behind the image: transparent marks that would
  * vanish on the dark page get a light plate; app icons with a baked
- * background need none. Entries missing here (ZTL Elettrica — no asset yet) fall back to the
- * emoji/placeholder tile.
+ * background need none.
  */
 export const logos: Record<string, { src: string; bg?: 'light' }> = {
   Builtdifferent: { src: '/logos/builtdifferent.png' },
@@ -17,4 +16,5 @@ export const logos: Record<string, { src: string; bg?: 'light' }> = {
   Acetaia: { src: '/logos/acetaia.png', bg: 'light' },
   'Modula SpA': { src: '/logos/modula.png', bg: 'light' },
   'Flutter Modena': { src: '/logos/flutter-modena.svg', bg: 'light' },
+  'ZTL Elettrica': { src: '/logos/ztl-elettrica.png', bg: 'light' },
 }
