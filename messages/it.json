@@ -65,7 +65,11 @@
         "tone": "mint",
         "title": "2022 — Nasce Aurora Digital",
         "text": "Nove mesi dopo Status Vaccini apro la partita IVA e fondo Aurora Digital, ancora dipendente e ancora studente. L'anno dopo lascio il posto fisso: da lì lavoro con le aziende come sviluppatore e consulente.",
-        "logo": "Aurora Digital"
+        "logo": "Aurora Digital",
+        "link": {
+          "label": "Scopri cosa faccio con Aurora Digital →",
+          "href": "https://auroradigital.it"
+        }
       },
       {
         "emoji": "🫂",

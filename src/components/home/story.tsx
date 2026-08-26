@@ -12,6 +12,8 @@ type Step = {
   logo?: string
   pressLabel?: string
   press?: { name: string; href: string }[]
+  /** Optional call-to-visit rendered under the step. Opens in a new tab. */
+  link?: { label: string; href: string }
 }
 
 export function Story() {
@@ -50,6 +52,18 @@ export function Story() {
                       </a>
                     </span>
                   ))}
+                </p>
+              )}
+              {step.link && (
+                <p className="mt-3.5 text-[15px] font-semibold">
+                  <a
+                    href={step.link.href}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="decoration-accent text-foreground hover:text-accent-bright underline decoration-2 underline-offset-4 transition-colors"
+                  >
+                    {step.link.label}
+                  </a>
                 </p>
               )}
               {step.celebration && (

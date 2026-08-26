@@ -65,7 +65,11 @@
         "tone": "mint",
         "title": "2022 — Aurora Digital is born",
         "text": "Nine months after Status Vaccini I registered as self-employed and founded Aurora Digital — still an employee, still a student. A year later I left my job: since then I've worked with companies as a developer and consultant.",
-        "logo": "Aurora Digital"
+        "logo": "Aurora Digital",
+        "link": {
+          "label": "See what I do with Aurora Digital →",
+          "href": "https://auroradigital.it"
+        }
       },
       {
         "emoji": "🫂",
