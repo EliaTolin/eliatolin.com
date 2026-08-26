@@ -60,21 +60,27 @@
         "text": "Italy's first app for tracking the Covid vaccination campaign. Open source, built with Flutter. Newspapers and national TV covered it."
       },
       {
-        "emoji": "🫂",
+        "emoji": "🌅",
         "tone": "mint",
-        "title": "2022 — Flutter Modena, going solo",
-        "text": "I founded the official Google-recognised Flutter meetup and registered as self-employed. A year later I left my job.",
+        "title": "2022 — Aurora Digital is born",
+        "text": "Nine months after Status Vaccini I registered as self-employed and founded Aurora Digital — still an employee, still a student. A year later I left my job: since then I've worked with companies as a developer and consultant."
+      },
+      {
+        "emoji": "🫂",
+        "tone": "accent",
+        "title": "That same year I founded Flutter Modena",
+        "text": "The official Google-recognised Flutter meetup.",
         "celebration": "Today it's the most active Flutter community in Italy 🎉"
       },
       {
         "emoji": "💪",
-        "tone": "accent",
+        "tone": "mint",
         "title": "Since 2023 — Head of Tech at Builtdifferent",
         "text": "A fitness and nutrition coaching platform with over 50,000 monthly active users."
       },
       {
         "emoji": "📱",
-        "tone": "mint",
+        "tone": "accent",
         "title": "Today I build my own products",
         "text": "Each one born from a problem I had: the app I needed didn't exist, so I wrote it. And I lead the tech at Ermanno, a logistics startup.",
         "celebration": "Around 234,000 people use software I wrote 🎉"

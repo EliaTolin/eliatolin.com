@@ -60,21 +60,27 @@
         "text": "La prima app in Italia per seguire la campagna vaccinale. Open source, in Flutter. Ne parlano giornali e telegiornali."
       },
       {
-        "emoji": "🫂",
+        "emoji": "🌅",
         "tone": "mint",
-        "title": "2022 — Flutter Modena e partita IVA",
-        "text": "Fondo il meetup ufficiale Flutter riconosciuto da Google e apro la partita IVA. L'anno dopo lascio il posto fisso.",
+        "title": "2022 — Nasce Aurora Digital",
+        "text": "Nove mesi dopo Status Vaccini apro la partita IVA e fondo Aurora Digital, ancora dipendente e ancora studente. L'anno dopo lascio il posto fisso: da lì lavoro con le aziende come sviluppatore e consulente."
+      },
+      {
+        "emoji": "🫂",
+        "tone": "accent",
+        "title": "Nello stesso anno fondo Flutter Modena",
+        "text": "Il meetup ufficiale Flutter riconosciuto da Google.",
         "celebration": "Oggi è la community Flutter più attiva d'Italia 🎉"
       },
       {
         "emoji": "💪",
-        "tone": "accent",
+        "tone": "mint",
         "title": "Dal 2023 — Head of Tech di Builtdifferent",
         "text": "La piattaforma di coaching fitness e nutrizione con oltre 50.000 persone attive ogni mese."
       },
       {
         "emoji": "📱",
-        "tone": "mint",
+        "tone": "accent",
         "title": "Oggi costruisco prodotti miei",
         "text": "Ognuno nato da un problema che avevo io: non trovavo l'app che mi serviva, quindi l'ho scritta. E guido la tecnologia di Ermanno, una startup di logistica.",
         "celebration": "Circa 234.000 persone usano software che ho scritto 🎉"
