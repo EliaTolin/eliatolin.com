@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { siteConfig } from '@/config/site'
 import { Section } from '@/components/home/section'
@@ -57,27 +58,14 @@ export function Hero() {
         </p>
       </div>
       <div className="w-full max-w-xs lg:max-w-none lg:flex-[0.7]">
-        {/* Portrait placeholder: swap for the real photo in public/ when available. */}
-        <div
-          role="img"
-          aria-label={t('photoAlt')}
-          className="border-border bg-surface text-faint-foreground flex aspect-5/6 flex-col items-center justify-center gap-3 rounded-[28px] border border-dashed"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            className="size-9"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            aria-hidden="true"
-          >
-            <circle cx="12" cy="8" r="4" />
-            <path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5" />
-          </svg>
-          <span className="text-[13px] font-medium">[ foto ritratto ]</span>
-        </div>
+        <Image
+          src="/photos/elia.jpg"
+          alt={t('photoAlt')}
+          width={750}
+          height={900}
+          priority
+          className="aspect-5/6 w-full rounded-[28px] object-cover"
+        />
       </div>
     </Section>
   )
