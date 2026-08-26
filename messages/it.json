@@ -171,20 +171,36 @@
   },
   "business": {
     "title": "Cosa faccio per le aziende",
-    "intro": "Con Aurora lavoro con le aziende dal 2022. Due cose, fatte bene:",
+    "intro": "Con Aurora Digital lavoro con le aziende dal 2022. Due cose, fatte bene:",
     "dev": {
       "title": "Sviluppo software su misura",
       "text": "App mobile in Flutter, piattaforme web con Next.js e Supabase, firmware su ESP32 e STM32. Copro tutta la filiera: ",
-      "highlight": "dal firmware sul microcontrollore all'app che l'utente tocca con il dito."
+      "highlight": "dal firmware sul microcontrollore all'app che l'utente tocca con il dito.",
+      "stats": [
+        {
+          "value": "4+",
+          "label": "anni con le aziende"
+        },
+        {
+          "value": "234.000+",
+          "label": "utenti finali raggiunti"
+        }
+      ]
     },
     "training": {
       "title": "Formazione AI per le aziende",
       "text": "Aiuto i team a portare l'AI nel proprio modo di lavorare: fondamenta dell'AI generativa, metodo e laboratorio su casi reali dell'azienda. Percorsi su misura, in presenza o da remoto. ",
-      "highlight": "Processi strutturati, contro il vibe coding."
+      "highlight": "Processi strutturati, contro il vibe coding.",
+      "stats": [
+        {
+          "value": "7",
+          "label": "settori serviti"
+        }
+      ]
     },
     "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness e e-commerce.",
     "ctaQuestion": "Hai un progetto o vuoi formare il tuo team?",
-    "ctaAction": "Scrivimi"
+    "ctaAction": "Trovi tutto su auroradigital.it →"
   },
   "contact": {
     "title": "Costruiamo qualcosa insieme?",
