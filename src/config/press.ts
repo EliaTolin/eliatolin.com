@@ -40,6 +40,11 @@ export const pressOutlets = [
     href: 'https://www.redacon.it/2021/06/04/lideatore-dellapp-che-rivela-tutto-sui-vaccini-e-di-baiso-e-si-chiama-elia-tolin/',
   },
   {
+    name: 'Stampa Reggiana',
+    domain: 'stampareggiana.it',
+    href: 'https://www.stampareggiana.it/2025/11/20/ai-apprendimento-e-universita-una-giornata-di-studi-al-tecnopolo-il-21-novembre/',
+  },
+  {
     name: 'TG Roseto',
     domain: 'tgroseto.it',
     href: 'https://www.tgroseto.it/2021/10/elia-tolin-informatica-a-disposizione-del-covid-19/',
