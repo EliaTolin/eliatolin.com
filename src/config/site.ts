@@ -23,6 +23,9 @@ export const siteConfig = {
     supawho: 'https://github.com/EliaTolin/supawho',
     tepio: 'https://trytepio.com',
     ztlElettrica: 'https://ztlelettrica.it',
+    hamqrg: 'https://hamqrg.com',
+    quizRadioamatori: 'https://quizradioamatori.it',
+    acetaia: 'https://acetaia.auroradigital.it',
   },
 } as const
 

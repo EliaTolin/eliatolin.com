@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import { LogoTile, Section, SectionTitle } from '@/components/home/section'
+import { projectLinks } from '@/config/project-links'
 
 type Role = {
   name: string
@@ -32,7 +33,18 @@ export function Roles() {
                 className="rounded-xl"
               />
               <div>
-                <div className="font-display text-xl font-bold">{item.name}</div>
+                {projectLinks[item.name] ? (
+                  <a
+                    href={projectLinks[item.name]}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="font-display decoration-accent hover:text-accent-bright block text-xl font-bold no-underline underline-offset-4 transition-colors hover:underline"
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <div className="font-display text-xl font-bold">{item.name}</div>
+                )}
                 <div className="text-muted-foreground mt-0.5 text-sm">{item.role}</div>
               </div>
             </div>

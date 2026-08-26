@@ -17,11 +17,11 @@ English (/en).
 ## Products
 
 - [Ermanno](https://ermannologistica.it): logistics startup — shipments dispatch themselves from transport documents
-- [Quiz Radioamatori](https://eliatolin.com/#projects): Italian ham-radio exam app, ~6,000 users
-- [HamQRG](https://eliatolin.com/#projects): worldwide radio repeaters app, ~1,500 monthly actives
+- [Quiz Radioamatori](https://quizradioamatori.it): Italian ham-radio exam app, ~6,000 users
+- [HamQRG](https://hamqrg.com): worldwide radio repeaters app, ~1,500 monthly actives
 - [Tepio](https://trytepio.com): AI briefs for cold calls
 - [ZTL Elettrica](https://ztlelettrica.it): Italian limited-traffic zones for EVs, free
-- Acetaia: balsamic vinegar barrel management, ~150 acetaie
+- [Acetaia](https://acetaia.auroradigital.it): balsamic vinegar barrel management, ~150 acetaie
 
 ## Open source
 

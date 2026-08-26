@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import { LogoTile, Section, SectionTitle } from '@/components/home/section'
+import { projectLinks } from '@/config/project-links'
 
 type Project = {
   emoji: string
@@ -30,7 +31,18 @@ export function Projects() {
               className="text-[22px]"
             />
             <div className="flex-1">
-              <span className="font-display text-xl font-bold">{item.name}</span>
+              {projectLinks[item.name] ? (
+                <a
+                  href={projectLinks[item.name]}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="font-display decoration-accent hover:text-accent-bright text-xl font-bold no-underline underline-offset-4 transition-colors hover:underline"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <span className="font-display text-xl font-bold">{item.name}</span>
+              )}
               <p className="text-muted-foreground mt-1 text-[15px] leading-relaxed">
                 {item.text}
               </p>
