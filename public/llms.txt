@@ -1,0 +1,40 @@
+# Elia Tolin
+
+> Personal website of Elia Tolin — computer scientist and entrepreneur from
+> Italy. Head of Tech at Builtdifferent, co-founder & CTO of Ermanno,
+> founder of Aurora Digital and of the Flutter Modena community. Around
+> 234,000 people use software he wrote, across his own products and
+> platforms built for companies.
+
+The site is a single-page biography, available in Italian (/) and
+English (/en).
+
+## Pages
+
+- [Home (Italian)](https://eliatolin.com/): full biography, products, roles, open source, services
+- [Home (English)](https://eliatolin.com/en): same content, rewritten in English
+
+## Products
+
+- [Ermanno](https://ermannologistica.it): logistics startup — shipments dispatch themselves from transport documents
+- [Quiz Radioamatori](https://eliatolin.com/#projects): Italian ham-radio exam app, ~6,000 users
+- [HamQRG](https://eliatolin.com/#projects): worldwide radio repeaters app, ~1,500 monthly actives
+- [Tepio](https://trytepio.com): AI briefs for cold calls
+- [ZTL Elettrica](https://ztlelettrica.it): Italian limited-traffic zones for EVs, free
+- Acetaia: balsamic vinegar barrel management, ~150 acetaie
+
+## Open source
+
+- [remote_caching](https://pub.dev/packages/remote_caching): Flutter package cited in the official Flutter documentation
+- [Supawho](https://github.com/EliaTolin/supawho): manage multiple Supabase accounts
+- [GitHub profile](https://github.com/eliatolin)
+
+## Services (Aurora Digital)
+
+- Custom software development: Flutter apps, Next.js + Supabase platforms, ESP32/STM32 firmware
+- AI training for companies: generative-AI foundations, Spec-Driven Development method, hands-on labs
+
+## Contact
+
+- Email: elia.tolin@auroradigital.it
+- [LinkedIn](https://it.linkedin.com/in/eliatolin)

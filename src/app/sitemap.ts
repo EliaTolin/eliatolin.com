@@ -11,9 +11,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteConfig.url}${localePath(locale, route)}`,
       lastModified: new Date(),
       alternates: {
-        languages: Object.fromEntries(
-          routing.locales.map((l) => [l, `${siteConfig.url}${localePath(l, route)}`]),
-        ),
+        languages: {
+          ...Object.fromEntries(
+            routing.locales.map((l) => [l, `${siteConfig.url}${localePath(l, route)}`]),
+          ),
+          'x-default': `${siteConfig.url}${localePath(routing.defaultLocale, route)}`,
+        },
       },
     })),
   )
