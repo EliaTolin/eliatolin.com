@@ -178,16 +178,8 @@
       "highlight": "from the firmware on the microcontroller to the app under the user's finger.",
       "stats": [
         {
-          "value": "4+",
-          "label": "years with companies"
-        },
-        {
           "value": "113+",
           "label": "projects carrying my code"
-        },
-        {
-          "value": "234,000+",
-          "label": "end users reached"
         }
       ]
     },
@@ -199,10 +191,6 @@
         {
           "value": "24+",
           "label": "teams trained"
-        },
-        {
-          "value": "7",
-          "label": "industries served"
         }
       ]
     },

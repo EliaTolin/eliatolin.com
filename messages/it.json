@@ -178,16 +178,8 @@
       "highlight": "dal firmware sul microcontrollore all'app che l'utente tocca con il dito.",
       "stats": [
         {
-          "value": "4+",
-          "label": "anni con le aziende"
-        },
-        {
           "value": "113+",
           "label": "progetti con il mio codice"
-        },
-        {
-          "value": "234.000+",
-          "label": "utenti finali raggiunti"
         }
       ]
     },
@@ -199,10 +191,6 @@
         {
           "value": "24+",
           "label": "team formati"
-        },
-        {
-          "value": "7",
-          "label": "settori serviti"
         }
       ]
     },
