@@ -10,6 +10,8 @@ type Step = {
   celebration?: string
   /** Key into the logos map; the emoji tile is the fallback. */
   logo?: string
+  pressLabel?: string
+  press?: { name: string; href: string }[]
 }
 
 export function Story() {
@@ -32,6 +34,24 @@ export function Story() {
               <p className="text-muted-foreground mt-2 text-[17px] leading-relaxed">
                 {step.text}
               </p>
+              {step.press && step.press.length > 0 && (
+                <p className="text-muted-foreground mt-3.5 text-sm leading-relaxed">
+                  {step.pressLabel}{' '}
+                  {step.press.map((outlet, i) => (
+                    <span key={outlet.href}>
+                      {i > 0 && <span aria-hidden="true"> · </span>}
+                      <a
+                        href={outlet.href}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="decoration-accent text-foreground hover:text-accent-bright underline decoration-1 underline-offset-4 transition-colors"
+                      >
+                        {outlet.name}
+                      </a>
+                    </span>
+                  ))}
+                </p>
+              )}
               {step.celebration && (
                 <p
                   className={cn(
