@@ -163,7 +163,7 @@
   },
   "openSource": {
     "title": "Quello che restituisco",
-    "body": "Mantengo <rc>remote_caching</rc>, un pacchetto Flutter finito <strong>citato nella documentazione ufficiale di Flutter</strong>. Il codice di <sv>Status Vaccini</sv> è interamente open source, come <sw>Supawho</sw>. E ogni mese organizzo gli incontri di <fm>Flutter Modena</fm> con la community."
+    "body": "Mantengo <rc>remote_caching</rc>, un pacchetto Flutter finito <strong>citato nella documentazione ufficiale di Flutter</strong>, e <sw>Supawho</sw>, uno strumento open source per gestire più account Supabase — nato, come tutto quello che costruisco, da un problema che avevo io. E ogni mese organizzo gli incontri di <fm>Flutter Modena</fm> con la community."
   },
   "business": {
     "title": "Cosa faccio per le aziende",

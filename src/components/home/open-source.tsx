@@ -29,9 +29,6 @@ export function OpenSource() {
           rc: (chunks) => (
             <ExternalLink href={siteConfig.links.remoteCaching}>{chunks}</ExternalLink>
           ),
-          sv: (chunks) => (
-            <ExternalLink href={siteConfig.links.statusVaccini}>{chunks}</ExternalLink>
-          ),
           sw: (chunks) => (
             <ExternalLink href={siteConfig.links.supawho}>{chunks}</ExternalLink>
           ),

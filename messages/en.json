@@ -163,7 +163,7 @@
   },
   "openSource": {
     "title": "What I give back",
-    "body": "I maintain <rc>remote_caching</rc>, a Flutter package that ended up <strong>cited in the official Flutter documentation</strong>. The code of <sv>Status Vaccini</sv> is fully open source, and so is <sw>Supawho</sw>. Every month I run the <fm>Flutter Modena</fm> meetups with the community."
+    "body": "I maintain <rc>remote_caching</rc>, a Flutter package that ended up <strong>cited in the official Flutter documentation</strong>, and <sw>Supawho</sw>, an open-source tool for managing multiple Supabase accounts — born, like everything I build, from a problem I had myself. Every month I run the <fm>Flutter Modena</fm> meetups with the community."
   },
   "business": {
     "title": "Work with me",
