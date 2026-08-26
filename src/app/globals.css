@@ -15,6 +15,7 @@
   --color-accent: oklch(0.72 0.15 40);
   --color-accent-soft: oklch(0.72 0.15 40 / 0.14);
   --color-accent-bright: oklch(0.8 0.13 40);
+  --color-accent-deep: oklch(0.53 0.15 42);
   --color-mint: oklch(0.72 0.15 160);
   --color-mint-soft: oklch(0.72 0.15 160 / 0.14);
   --color-mint-bright: oklch(0.78 0.13 160);

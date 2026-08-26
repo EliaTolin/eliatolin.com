@@ -33,7 +33,7 @@ export function Contact() {
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3.5">
-          <ObfuscatedEmail className="bg-accent text-background inline-block rounded-full px-8 py-3.5 text-base font-bold no-underline transition-opacity hover:opacity-90">
+          <ObfuscatedEmail className="bg-accent-deep text-foreground inline-block rounded-full px-8 py-3.5 text-base font-bold no-underline transition-opacity hover:opacity-90">
             {t('cta')}
           </ObfuscatedEmail>
           <a
