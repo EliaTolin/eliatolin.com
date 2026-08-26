@@ -28,7 +28,7 @@ export function Hero() {
         </p>
         <h1 className="font-display mt-4 text-[2.6rem] leading-[1.06] font-extrabold tracking-tight text-balance sm:text-[3.6rem]">
           {t('headlineStart')}
-          <span className="decoration-accent underline decoration-wavy decoration-[0.09em] underline-offset-8">
+          <span className="decoration-accent underline decoration-wavy decoration-[0.09em] underline-offset-8 [text-decoration-skip-ink:none]">
             {t('headlineHighlight')}
           </span>
           {t('headlineEnd')}
