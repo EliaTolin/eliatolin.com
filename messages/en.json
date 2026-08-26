@@ -72,7 +72,8 @@
         "tone": "accent",
         "title": "That same year I founded Flutter Modena",
         "text": "The official Google-recognised Flutter meetup.",
-        "celebration": "Today it's the most active Flutter community in Italy 🎉"
+        "celebration": "Today it's the most active Flutter community in Italy 🎉",
+        "logo": "Flutter Modena"
       },
       {
         "emoji": "💪",
