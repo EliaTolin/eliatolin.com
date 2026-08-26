@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-import { logoDevUrl, pressOutlets } from '@/config/press'
+import { logoDevUrl, pressOutlets, pressWordmarks } from '@/config/press'
 import { cn } from '@/lib/utils'
 
 function OutletRow({
@@ -69,6 +69,45 @@ export function PressMarquee() {
       <div className="flex flex-col gap-6">
         <MarqueeRow outlets={pressOutlets} />
         <MarqueeRow outlets={rowB} reverse />
+      </div>
+    </section>
+  )
+}
+
+function WordmarkRow({ ariaHidden }: { ariaHidden?: boolean }) {
+  return (
+    <div aria-hidden={ariaHidden} className="flex shrink-0 items-center gap-20 pr-20">
+      {pressWordmarks.map((outlet) => (
+        <a
+          key={outlet.src}
+          href={outlet.href}
+          target="_blank"
+          rel="noreferrer noopener"
+          tabIndex={ariaHidden ? -1 : undefined}
+          className="opacity-50 transition duration-300 hover:opacity-100"
+        >
+          {/* brightness(0) invert(1) renders every wordmark solid white. */}
+          {/* eslint-disable-next-line @next/next/no-img-element -- tiny static assets, several SVG with intrinsic sizing */}
+          <img
+            src={outlet.src}
+            alt={outlet.name}
+            className="h-7 w-auto brightness-0 invert"
+          />
+        </a>
+      ))}
+    </div>
+  )
+}
+
+/** Variant B: monochrome wordmarks only, single row. */
+export function PressWordmarks() {
+  return (
+    <section aria-label="Press" className="mt-16">
+      <div className="marquee">
+        <div className="marquee-track">
+          <WordmarkRow />
+          <WordmarkRow ariaHidden />
+        </div>
       </div>
     </section>
   )
