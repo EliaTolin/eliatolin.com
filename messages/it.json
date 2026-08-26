@@ -171,18 +171,41 @@
   },
   "business": {
     "title": "Cosa faccio per le aziende",
-    "intro": "Con Aurora lavoro con le aziende dal 2022. Due cose, fatte bene:",
+    "intro": "Con Aurora Digital lavoro con le aziende dal 2022. Due cose, fatte bene:",
     "dev": {
+      "emoji": "🛠️",
       "title": "Sviluppo software su misura",
-      "text": "App mobile in Flutter, piattaforme web con Next.js e Supabase, firmware su ESP32 e STM32. Copro tutta la filiera: ",
-      "highlight": "dal firmware sul microcontrollore all'app che l'utente tocca con il dito."
+      "text": "App mobile, piattaforme web, firmware. Copro tutta la filiera: ",
+      "highlight": "dal firmware sul microcontrollore all'app che l'utente tocca con il dito.",
+      "chips": ["Flutter", "Next.js", "Supabase", "ESP32 · STM32", "BLE"]
     },
     "training": {
+      "emoji": "🎓",
       "title": "Formazione AI per le aziende",
-      "text": "Aiuto i team a portare l'AI nel proprio modo di lavorare: fondamenta dell'AI generativa, metodo e laboratorio su casi reali dell'azienda. Percorsi su misura, in presenza o da remoto. ",
-      "highlight": "Processi strutturati, contro il vibe coding."
+      "text": "Aiuto i team a portare l'AI nel proprio modo di lavorare: fondamenta, metodo e laboratorio su casi reali. Percorsi su misura, in presenza o da remoto. ",
+      "highlight": "Processi strutturati, contro il vibe coding.",
+      "chips": [
+        "AI generativa",
+        "Spec-Driven Development",
+        "Agenti e skill",
+        "Laboratorio pratico"
+      ]
     },
-    "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness e e-commerce.",
+    "stats": [
+      {
+        "value": "4+",
+        "label": "anni al fianco delle aziende"
+      },
+      {
+        "value": "7",
+        "label": "settori serviti, dai rifiuti allo smart city"
+      },
+      {
+        "value": "234.000+",
+        "label": "utenti finali del software a cui ho lavorato"
+      }
+    ],
+    "sectors": "Gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness, e-commerce.",
     "ctaQuestion": "Hai un progetto o vuoi formare il tuo team?",
     "ctaAction": "Scrivimi"
   },

@@ -171,18 +171,41 @@
   },
   "business": {
     "title": "Work with me",
-    "intro": "Through Aurora I've been working with companies since 2022. Two things, done well:",
+    "intro": "Through Aurora Digital I've been working with companies since 2022. Two things, done well:",
     "dev": {
+      "emoji": "🛠️",
       "title": "Custom software development",
-      "text": "Mobile apps in Flutter, web platforms on Next.js and Supabase, firmware on ESP32 and STM32. I cover the whole stack: ",
-      "highlight": "from the firmware on the microcontroller to the app under the user's finger."
+      "text": "Mobile apps, web platforms, firmware. I cover the whole stack: ",
+      "highlight": "from the firmware on the microcontroller to the app under the user's finger.",
+      "chips": ["Flutter", "Next.js", "Supabase", "ESP32 · STM32", "BLE"]
     },
     "training": {
+      "emoji": "🎓",
       "title": "AI training for companies",
-      "text": "I help teams bring AI into the way they work: generative-AI foundations, method, and hands-on labs on the company's real cases. Tailored formats, on site or remote. ",
-      "highlight": "Structured process, against vibe coding."
+      "text": "I help teams bring AI into the way they work: foundations, method, and hands-on labs on real cases. Tailored formats, on site or remote. ",
+      "highlight": "Structured process, against vibe coding.",
+      "chips": [
+        "Generative AI",
+        "Spec-Driven Development",
+        "Agents & skills",
+        "Hands-on labs"
+      ]
     },
-    "sectors": "I've built management systems for the waste sector, firmware for home appliances, smart-city platforms, logistics software, fitness apps and e-commerce.",
+    "stats": [
+      {
+        "value": "4+",
+        "label": "years working with companies"
+      },
+      {
+        "value": "7",
+        "label": "industries served, from waste to smart city"
+      },
+      {
+        "value": "234,000+",
+        "label": "end users of software I've worked on"
+      }
+    ],
+    "sectors": "Management systems for the waste sector, firmware for home appliances, smart-city platforms, logistics software, fitness apps, e-commerce.",
     "ctaQuestion": "Have a project, or a team to train?",
     "ctaAction": "Write me"
   },
