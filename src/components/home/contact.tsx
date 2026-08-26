@@ -42,7 +42,7 @@ export function Contact() {
             <LinkedInIcon />
             LinkedIn
           </a>
-          <ObfuscatedEmail className="bg-accent-deep text-foreground inline-block rounded-full px-8 py-3.5 text-base font-bold no-underline transition-opacity hover:opacity-90">
+          <ObfuscatedEmail className="bg-accent-deep text-foreground order-first inline-block rounded-full px-8 py-3.5 text-base font-bold no-underline transition-opacity hover:opacity-90 sm:order-none">
             {t('cta')}
           </ObfuscatedEmail>
           <a
