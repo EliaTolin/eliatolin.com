@@ -86,8 +86,8 @@ export function Business() {
       <SectionTitle>{t('title')}</SectionTitle>
       <p className="text-muted-foreground mt-3 max-w-2xl text-[17px]">{t('intro')}</p>
       <div className="mt-10 grid gap-4.5 md:grid-cols-2">
-        <OfferCard offer={t.raw('dev') as Offer} colors={['accent', 'amber']} />
-        <OfferCard offer={t.raw('training') as Offer} colors={['mint']} />
+        <OfferCard offer={t.raw('dev') as Offer} colors={['accent', 'amber', 'mint']} />
+        <OfferCard offer={t.raw('training') as Offer} colors={['mint', 'amber']} />
       </div>
       <p className="text-muted-foreground mt-7 max-w-3xl text-sm leading-relaxed">
         {t('sectors')}

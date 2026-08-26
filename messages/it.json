@@ -182,6 +182,10 @@
           "label": "anni con le aziende"
         },
         {
+          "value": "113+",
+          "label": "progetti con il mio codice"
+        },
+        {
           "value": "234.000+",
           "label": "utenti finali raggiunti"
         }
@@ -192,6 +196,10 @@
       "text": "Aiuto i team a portare l'AI nel proprio modo di lavorare: fondamenta dell'AI generativa, metodo e laboratorio su casi reali dell'azienda. Percorsi su misura, in presenza o da remoto. ",
       "highlight": "Processi strutturati, contro il vibe coding.",
       "stats": [
+        {
+          "value": "24+",
+          "label": "team formati"
+        },
         {
           "value": "7",
           "label": "settori serviti"

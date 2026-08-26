@@ -182,6 +182,10 @@
           "label": "years with companies"
         },
         {
+          "value": "113+",
+          "label": "projects carrying my code"
+        },
+        {
           "value": "234,000+",
           "label": "end users reached"
         }
@@ -192,6 +196,10 @@
       "text": "I help teams bring AI into the way they work: generative-AI foundations, method, and hands-on labs on the company's real cases. Tailored formats, on site or remote. ",
       "highlight": "Structured process, against vibe coding.",
       "stats": [
+        {
+          "value": "24+",
+          "label": "teams trained"
+        },
         {
           "value": "7",
           "label": "industries served"
