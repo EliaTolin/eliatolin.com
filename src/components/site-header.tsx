@@ -14,7 +14,8 @@ export function SiteHeader() {
 
   return (
     <header className="px-gutter mx-auto flex w-full max-w-5xl items-center justify-between pt-6">
-      <Link href="/" className="font-display text-lg font-bold no-underline">
+      {/* -m cancels the layout effect of the padding: bigger tap target, same look. */}
+      <Link href="/" className="font-display -m-2 p-2 text-lg font-bold no-underline">
         et<span className="text-accent">.</span>
       </Link>
       <nav

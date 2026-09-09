@@ -17,6 +17,19 @@ COPY . .
 ARG NEXT_PUBLIC_SITE_URL=https://eliatolin.com
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 
+# Simple Analytics. Both are read at build time: the NEXT_PUBLIC_ one is baked
+# into the client bundle, the other enables the proxy rewrites in next.config.ts.
+ARG NEXT_PUBLIC_SIMPLE_ANALYTICS_HOSTNAME=eliatolin.com
+ENV NEXT_PUBLIC_SIMPLE_ANALYTICS_HOSTNAME=$NEXT_PUBLIC_SIMPLE_ANALYTICS_HOSTNAME
+ARG SIMPLE_ANALYTICS_HOSTNAME=eliatolin.com
+ENV SIMPLE_ANALYTICS_HOSTNAME=$SIMPLE_ANALYTICS_HOSTNAME
+
+# Real content-change date for sitemap lastmod. `.git` is excluded from the
+# build context, so the sitemap cannot read it itself — inject it here.
+# In Coolify: SITE_LAST_MODIFIED=$SOURCE_COMMIT_TIMESTAMP (ISO 8601).
+ARG SITE_LAST_MODIFIED=
+ENV SITE_LAST_MODIFIED=$SITE_LAST_MODIFIED
+
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
