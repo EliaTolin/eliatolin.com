@@ -18,7 +18,7 @@
     "headlineStart": "I turn problems I've had into ",
     "headlineHighlight": "products I wish I'd had",
     "headlineEnd": ".",
-    "roles": "Founder of <au>Aurora Digital</au>, co-founder and CTO of <er>Ermanno</er>, and founder of <fm>Flutter Modena</fm>.",
+    "roles": "Head of Tech at <bd>Builtdifferent</bd>, founder of <au>Aurora Digital</au>, co-founder and CTO of <er>Ermanno</er>, and founder of <fm>Flutter Modena</fm>.",
     "flagStart": "Around ",
     "flagNumber": "234,000 people",
     "flagMiddle": " use software I wrote",
@@ -39,7 +39,7 @@
         "emoji": "💻",
         "tone": "mint",
         "title": "At 16 I found programming",
-        "text": "At technical school. I never stopped."
+        "text": "At a technical school in Sassuolo. I never stopped."
       },
       {
         "emoji": "🚀",
@@ -51,14 +51,33 @@
         "emoji": "🏭",
         "tone": "mint",
         "title": "At 20 I joined Modula SpA",
-        "text": "A world leader in vertical automated warehouses. In R&D I was the only one without a degree: industrial automation in C++ and C#, computer vision, porting an entire system to Linux. Meanwhile I paid my own way through university — six years, working full time.",
+        "text": "A world leader in vertical automated warehouses. In R&D I was the only one without a degree: industrial automation in C++ and C#, computer vision, porting an entire system to Linux. Meanwhile I paid my own way through university — seven years, working full time.",
         "logo": "Modula SpA"
       },
       {
         "emoji": "💉",
         "tone": "accent",
         "title": "2021 — Status Vaccini",
-        "text": "Italy's first app for tracking the Covid vaccination campaign. Open source, built with Flutter. Newspapers and national TV covered it."
+        "text": "In 2021 I built Status Vaccini, Italy's first app for tracking the Covid vaccination campaign. Open source, built with Flutter.",
+        "pressLabel": "Covered by:",
+        "press": [
+          {
+            "name": "il Resto del Carlino",
+            "href": "https://www.ilrestodelcarlino.it/cronaca/vaccino-covid-app-46d76a55"
+          },
+          {
+            "name": "Gazzetta di Modena",
+            "href": "https://www.gazzettadimodena.it/modena/cronaca/2021/05/07/news/l-idea-di-elia-l-applicazione-che-dice-tutto-sui-vaccini-1.40246570"
+          },
+          {
+            "name": "La Pressa",
+            "href": "https://www.lapressa.it/articoli/societa/status-vaccini"
+          },
+          {
+            "name": "Redacon",
+            "href": "https://www.redacon.it/2021/06/04/lideatore-dellapp-che-rivela-tutto-sui-vaccini-e-di-baiso-e-si-chiama-elia-tolin/"
+          }
+        ]
       },
       {
         "emoji": "🌅",
@@ -194,14 +213,14 @@
         }
       ]
     },
-    "sectors": "I've built management systems for the waste sector, firmware for home appliances, smart-city platforms, logistics software, fitness apps and e-commerce.",
+    "sectors": "I've built management systems for the waste sector, firmware for home appliances, smart-city platforms, logistics software, fitness apps, e-commerce and manufacturing. I work from Emilia-Romagna: on site with companies in the area, remote across Italy.",
     "ctaQuestion": "Have a project, or a team to train?",
     "ctaAction": "It's all on auroradigital.it →"
   },
   "contact": {
-    "title": "Let's build something together?",
+    "title": "Want to build something together?",
     "text": "For a project, a collaboration, or just to compare notes.",
-    "cta": "Write me 👋"
+    "cta": "Get in touch 👋"
   },
   "footer": {
     "copyright": "© {year} Elia Tolin",

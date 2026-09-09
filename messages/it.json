@@ -18,7 +18,7 @@
     "headlineStart": "Trasformo problemi che ho avuto in ",
     "headlineHighlight": "prodotti che avrei voluto avere",
     "headlineEnd": ".",
-    "roles": "Founder di <au>Aurora Digital</au>, co-founder e CTO di <er>Ermanno</er> e fondatore di <fm>Flutter Modena</fm>.",
+    "roles": "Head of Tech di <bd>Builtdifferent</bd>, founder di <au>Aurora Digital</au>, co-founder e CTO di <er>Ermanno</er> e fondatore di <fm>Flutter Modena</fm>.",
     "flagStart": "Circa ",
     "flagNumber": "234.000 persone",
     "flagMiddle": " usano software che ho scritto",
@@ -51,14 +51,33 @@
         "emoji": "🏭",
         "tone": "mint",
         "title": "A 20 entro in Modula SpA",
-        "text": "Leader mondiale nei magazzini automatici verticali. In R&D ero l'unico non laureato: automazione industriale in C++ e C#, computer vision, il porting di un intero sistema su Linux. Intanto mi pagavo l'università da solo — sei anni a Unimore, senza mai smettere di lavorare.",
+        "text": "Leader mondiale nei magazzini automatici verticali. In R&D ero l'unico non laureato: automazione industriale in C++ e C#, computer vision, il porting di un intero sistema su Linux. Intanto mi pagavo l'università da solo — sette anni a Unimore, senza mai smettere di lavorare.",
         "logo": "Modula SpA"
       },
       {
         "emoji": "💉",
         "tone": "accent",
         "title": "2021 — Status Vaccini",
-        "text": "La prima app in Italia per seguire la campagna vaccinale. Open source, in Flutter. Ne parlano giornali e telegiornali."
+        "text": "Nel 2021 creo Status Vaccini, la prima app italiana per seguire la campagna vaccinale Covid. Open source, scritta in Flutter.",
+        "pressLabel": "Ne hanno parlato:",
+        "press": [
+          {
+            "name": "il Resto del Carlino",
+            "href": "https://www.ilrestodelcarlino.it/cronaca/vaccino-covid-app-46d76a55"
+          },
+          {
+            "name": "Gazzetta di Modena",
+            "href": "https://www.gazzettadimodena.it/modena/cronaca/2021/05/07/news/l-idea-di-elia-l-applicazione-che-dice-tutto-sui-vaccini-1.40246570"
+          },
+          {
+            "name": "La Pressa",
+            "href": "https://www.lapressa.it/articoli/societa/status-vaccini"
+          },
+          {
+            "name": "Redacon",
+            "href": "https://www.redacon.it/2021/06/04/lideatore-dellapp-che-rivela-tutto-sui-vaccini-e-di-baiso-e-si-chiama-elia-tolin/"
+          }
+        ]
       },
       {
         "emoji": "🌅",
@@ -110,7 +129,7 @@
         "name": "Ermanno",
         "role": "Co-founder & CTO",
         "tone": "mint",
-        "text": "Le spedizioni si smistano da sole: dai DDT del gestionale ai mezzi, ai corrieri, alla dashboard.",
+        "text": "Le spedizioni si smistano da sole: dai DDT (i documenti di trasporto) del gestionale ai mezzi, ai corrieri, alla dashboard.",
         "metric": "Startup",
         "metricLabel": "di logistica"
       },
@@ -194,7 +213,7 @@
         }
       ]
     },
-    "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness e e-commerce.",
+    "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness, e-commerce e industria manifatturiera. Lavoro dall'Emilia-Romagna: in presenza con le aziende del territorio, da remoto in tutta Italia.",
     "ctaQuestion": "Hai un progetto o vuoi formare il tuo team?",
     "ctaAction": "Trovi tutto su auroradigital.it →"
   },
