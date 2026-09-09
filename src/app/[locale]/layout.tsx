@@ -9,6 +9,7 @@ import { siteConfig } from '@/config/site'
 import { SiteHeader } from '@/components/site-header'
 import { JsonLd } from '@/components/json-ld'
 import { SiteFooter } from '@/components/site-footer'
+import { SimpleAnalytics } from '@simpleanalytics/next'
 
 import '../globals.css'
 
@@ -107,6 +108,7 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </NextIntlClientProvider>
+        <SimpleAnalytics />
       </body>
     </html>
   )
