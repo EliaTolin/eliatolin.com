@@ -10,6 +10,13 @@ export const routing = defineRouting({
   defaultLocale,
   // Italian lives at the root, English under /en.
   localePrefix: 'as-needed',
+  // Do not redirect `/` based on the visitor's Accept-Language header.
+  // hreflang already declares the it/en mapping explicitly, and auto-redirecting
+  // meant the canonical URL was not reliably reachable: any client sending
+  // `Accept-Language: en` — including PageSpeed Insights and the Rich Results
+  // Test — got bounced to /en and silently audited the wrong page.
+  // The language is still switchable via LocaleSwitcher.
+  localeDetection: false,
 })
 
 /**

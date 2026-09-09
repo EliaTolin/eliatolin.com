@@ -18,6 +18,10 @@ function WordmarkRow({ ariaHidden }: { ariaHidden?: boolean }) {
           <img
             src={outlet.src}
             alt={outlet.name}
+            width={outlet.width}
+            height={outlet.height}
+            loading="lazy"
+            decoding="async"
             className="h-7 w-auto brightness-0 invert"
           />
         </a>
