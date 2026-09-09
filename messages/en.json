@@ -224,7 +224,41 @@
   },
   "footer": {
     "copyright": "© {year} Elia Tolin",
-    "openSource": "This site is open source"
+    "openSource": "This site is open source",
+    "privacy": "Privacy"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "updated": "Last updated September 2026",
+    "intro": "This is my personal site. I am the data controller — Elia Tolin, as a private individual. There is no company behind this page: if you have a question about how it works, write to me and I will answer you myself.",
+    "sections": [
+      {
+        "title": "Visit statistics",
+        "body": "I use Simple Analytics, a Dutch service that keeps its data in the European Union. It sets no cookies, does not track people across sites, does not record IP addresses and builds no profiles: it collects only aggregate numbers, such as how many times a page was opened. That is why you see no cookie banner — there is nothing to consent to. The script is served from this domain, so your browser never opens a connection to any third party."
+      },
+      {
+        "title": "Cookies",
+        "body": "This site uses exactly one cookie, NEXT_LOCALE, which remembers whether you are reading in Italian or English. It is a functional cookie: without it the site would not know which language to show you. There are no advertising, profiling or third-party cookies."
+      },
+      {
+        "title": "Server logs",
+        "body": "Like any website, the server records the requests it receives, and those logs include the IP address of whoever connects. They exist to keep the site running and to spot when something breaks or someone is attacking it. I do not use them to identify anyone and I do not cross-reference them with anything else."
+      },
+      {
+        "title": "If you email me",
+        "body": "If you send me an email, I see your address and what you wrote, and I use both only to reply. You are not added to any mailing list, your address goes to no one else, and I will not use it to contact you about anything else."
+      },
+      {
+        "title": "Links to other sites",
+        "body": "This page links out a lot: to Aurora Digital, GitHub, LinkedIn, the outlets that wrote about me, and my own products. Once you are on another site, its rules apply, not these."
+      },
+      {
+        "title": "Your rights",
+        "body": "Under the GDPR (arts. 15-22) you have the right to know what data of yours I hold, to have it corrected or deleted, to restrict how it is used and to object to the processing. In practice, here, the answer is almost always that I hold nothing about you at all — but write to me if you want to check and I will look. If you think I am getting something wrong, you can also contact the Italian data protection authority, the Garante per la protezione dei dati personali."
+      }
+    ],
+    "contactLabel": "Anything about this page:",
+    "backHome": "Back to home"
   },
   "notFound": {
     "title": "Page not found",
