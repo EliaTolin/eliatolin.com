@@ -235,10 +235,9 @@ export function JsonLd({ locale }: { locale: Locale }) {
         worksFor: { '@id': auroraId },
       },
       {
-        // No startDate: the site says 2023, PRODUCT.md flags the vault as
-        // mid-2024. Left out until Elia confirms which is right.
         '@type': 'OrganizationRole',
         roleName: 'Head of Tech',
+        startDate: '2023',
         worksFor: { '@id': builtdifferentId },
       },
     ],
@@ -325,6 +324,7 @@ export function JsonLd({ locale }: { locale: Locale }) {
     '@id': flutterModenaId,
     name: 'Flutter Modena',
     url: siteConfig.links.flutterModena,
+    foundingDate: '2022',
     logo: `${siteConfig.url}/logos/flutter-modena.svg`,
     founder: { '@id': personId },
   }
