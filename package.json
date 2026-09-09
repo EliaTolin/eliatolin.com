@@ -18,6 +18,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@simpleanalytics/next": "^1.1.1",
     "next": "16.3.2",
     "next-intl": "4.13.7",
     "react": "19.2.8",
