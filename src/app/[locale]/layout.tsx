@@ -11,6 +11,10 @@ import { JsonLd } from '@/components/json-ld'
 import { SiteFooter } from '@/components/site-footer'
 import { SimpleAnalytics } from '@simpleanalytics/next'
 
+// Mirrors the guard in next.config.ts: without the proxy rewrites the script
+// would just 404, so do not render it at all locally.
+const analyticsEnabled = new URL(siteConfig.url).hostname !== 'localhost'
+
 import '../globals.css'
 
 const onest = Onest({
@@ -108,7 +112,7 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </NextIntlClientProvider>
-        <SimpleAnalytics />
+        {analyticsEnabled && <SimpleAnalytics hostname={siteConfig.domain} />}
       </body>
     </html>
   )

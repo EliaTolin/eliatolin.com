@@ -46,6 +46,24 @@ const securityHeaders = [
   },
 ]
 
+/**
+ * Domain to report to Simple Analytics.
+ *
+ * Deliberately not dependent on a dedicated env var: the plugin silently
+ * disables itself when its hostname is missing, and Coolify does not apply the
+ * Dockerfile's ARG defaults — which is exactly how the first deploy shipped a
+ * /proxy.js that 404'd. NEXT_PUBLIC_SITE_URL is already configured there and
+ * demonstrably arrives, so derive from it and fall back to the real domain.
+ * The explicit env vars still work as an override.
+ */
+const analyticsHostname =
+  process.env.SIMPLE_ANALYTICS_HOSTNAME ||
+  process.env.NEXT_PUBLIC_SIMPLE_ANALYTICS_HOSTNAME ||
+  new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://eliatolin.com').hostname
+
+// Keeps local development out of the production stats.
+const analyticsEnabled = analyticsHostname !== 'localhost'
+
 const nextConfig: NextConfig = {
   // Emits a self-contained server bundle in .next/standalone, which is what the
   // Dockerfile ships to Coolify. Keep this on.
@@ -71,4 +89,8 @@ const nextConfig: NextConfig = {
 // (/proxy.js, /auto-events.js, /simple/*), so no third-party host has to be
 // allowed in the CSP above and adblockers do not break tracking.
 // Needs SIMPLE_ANALYTICS_HOSTNAME at build time or the plugin disables itself.
-export default withNextIntl(withSimpleAnalytics(nextConfig))
+export default withNextIntl(
+  analyticsEnabled
+    ? withSimpleAnalytics(nextConfig, { hostname: analyticsHostname })
+    : nextConfig,
+)
