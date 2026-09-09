@@ -224,7 +224,41 @@
   },
   "footer": {
     "copyright": "© {year} Elia Tolin",
-    "openSource": "Il sito è open source"
+    "openSource": "Il sito è open source",
+    "privacy": "Privacy"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "updated": "Aggiornata a settembre 2026",
+    "intro": "Questo è il mio sito personale. Il titolare del trattamento sono io, Elia Tolin, come persona fisica. Non c'è nessuna azienda dietro questa pagina: se hai domande su come funziona, scrivimi e ti rispondo io.",
+    "sections": [
+      {
+        "title": "Statistiche di visita",
+        "body": "Uso Simple Analytics, un servizio olandese con i dati conservati nell'Unione Europea. Non usa cookie, non traccia le persone tra un sito e l'altro, non registra indirizzi IP e non crea profili: raccoglie solo numeri aggregati, come quante volte è stata aperta una pagina. Per questo non vedi nessun banner sui cookie — non c'è niente da consentire. Lo script è servito da questo dominio, quindi il tuo browser non apre nessuna connessione verso terze parti."
+      },
+      {
+        "title": "Cookie",
+        "body": "Questo sito usa un solo cookie, NEXT_LOCALE, che serve a ricordare se stai leggendo in italiano o in inglese. È un cookie tecnico: senza, il sito non saprebbe che lingua mostrarti. Non ci sono cookie di profilazione, di marketing o di terze parti."
+      },
+      {
+        "title": "Log del server",
+        "body": "Come qualsiasi sito, il server registra le richieste che riceve, e in questi log compare l'indirizzo IP di chi si collega. Servono a far funzionare il sito e a capire se qualcosa non va o se qualcuno lo sta attaccando. Non li uso per identificare nessuno e non li incrocio con altri dati."
+      },
+      {
+        "title": "Se mi scrivi",
+        "body": "Se mi mandi un'email, leggo il tuo indirizzo e quello che mi hai scritto, e li uso solo per risponderti. Non finisci in nessuna newsletter, non giro il tuo indirizzo a nessuno e non lo uso per contattarti su altro."
+      },
+      {
+        "title": "Link verso altri siti",
+        "body": "Da qui si esce spesso: verso Aurora Digital, GitHub, LinkedIn, le testate che hanno scritto di me e i miei prodotti. Una volta che sei su un altro sito valgono le sue regole, non queste."
+      },
+      {
+        "title": "I tuoi diritti",
+        "body": "Il GDPR (artt. 15-22) ti dà il diritto di sapere quali tuoi dati ho, di farteli correggere o cancellare, di limitarne l'uso e di oppormi al trattamento. Nella pratica, qui, quasi sempre la risposta è che non ho nulla che ti riguardi — ma se vuoi verificarlo scrivimi e controllo. Se pensi che stia sbagliando qualcosa puoi anche rivolgerti al Garante per la protezione dei dati personali."
+      }
+    ],
+    "contactLabel": "Per qualsiasi cosa su questa pagina:",
+    "backHome": "Torna alla home"
   },
   "notFound": {
     "title": "Pagina non trovata",
