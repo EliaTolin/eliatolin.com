@@ -2,7 +2,8 @@
 
 > Personal website of Elia Tolin — computer scientist and entrepreneur from
 > Italy. Head of Tech at Builtdifferent, co-founder & CTO of Ermanno,
-> founder of Aurora Digital and of the Flutter Modena community. Around
+> founder of Aurora Digital and of the Flutter Modena community (500
+> members since 2022). Around
 > 234,000 people use software he wrote, across his own products and
 > platforms built for companies.
 
@@ -25,7 +26,7 @@ English (/en).
 
 ## Open source
 
-- [remote_caching](https://pub.dev/packages/remote_caching): Flutter package cited in the official Flutter documentation
+- [remote_caching](https://pub.dev/packages/remote_caching): Flutter package for caching remote API calls, that was cited in the official Flutter documentation
 - [Supawho](https://github.com/EliaTolin/supawho): manage multiple Supabase accounts
 - [GitHub profile](https://github.com/eliatolin)
 
