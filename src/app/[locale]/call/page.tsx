@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { useTranslations } from 'next-intl'
 import { use } from 'react'
 
+import { siteConfig } from '@/config/site'
 import { Link } from '@/i18n/navigation'
 import { localePath, routing, type Locale } from '@/i18n/routing'
 import { Container } from '@/components/ui/container'
@@ -26,15 +27,37 @@ export async function generateMetadata({
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'booking' })
 
+  const description = t('metaDescription')
+  const image = `/og-${locale}.png`
+
+  // This link gets shared directly (WhatsApp, LinkedIn, email), so the preview
+  // must describe the booking page, not inherit the home page's title. Next
+  // replaces openGraph/twitter wholesale, hence the image is repeated here.
   return {
     title: t('metaTitle'),
-    description: t('intro'),
+    description,
     alternates: {
       canonical: localePath(locale as Locale, ROUTE),
       languages: {
         ...Object.fromEntries(routing.locales.map((l) => [l, localePath(l, ROUTE)])),
         'x-default': localePath(routing.defaultLocale, ROUTE),
       },
+    },
+    openGraph: {
+      type: 'website',
+      siteName: siteConfig.name,
+      locale: locale === 'it' ? 'it_IT' : 'en_US',
+      alternateLocale: locale === 'it' ? 'en_US' : 'it_IT',
+      title: t('shareTitle'),
+      description,
+      url: localePath(locale as Locale, ROUTE),
+      images: [{ url: image, width: 1200, height: 630, alt: t('shareTitle') }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('shareTitle'),
+      description,
+      images: [image],
     },
   }
 }
@@ -86,6 +109,16 @@ function CallContent() {
           >
             {t('ctaScroll')}
           </a>
+          {/* Many visitors land here from a shared link without knowing who Elia is. */}
+          <p className="rise text-muted-foreground mt-6 text-base" style={delay(300)}>
+            {t('aboutPrompt')}{' '}
+            <Link
+              href="/"
+              className="text-foreground decoration-accent hover:text-accent-bright font-semibold underline decoration-2 underline-offset-4 transition-colors"
+            >
+              {t('aboutLink')}
+            </Link>
+          </p>
         </div>
 
         <div

@@ -2,11 +2,13 @@ import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { LocaleSwitcher } from '@/components/locale-switcher'
 
+// Sections of the home page. Linked as `/#…` so they also work from /call and
+// /privacy; next-intl's Link adds the locale prefix (/en/#…) when needed.
 const navItems = [
-  { href: '#story', key: 'story' },
-  { href: '#projects', key: 'projects' },
-  { href: '#business', key: 'business' },
-  { href: '#contact', key: 'contact' },
+  { hash: 'story', key: 'story' },
+  { hash: 'projects', key: 'projects' },
+  { hash: 'business', key: 'business' },
+  { hash: 'contact', key: 'contact' },
 ] as const
 
 export function SiteHeader() {
@@ -23,13 +25,13 @@ export function SiteHeader() {
         className="flex items-center gap-5 text-sm font-medium sm:gap-7"
       >
         {navItems.map((item) => (
-          <a
-            key={item.href}
-            href={item.href}
+          <Link
+            key={item.hash}
+            href={{ pathname: '/', hash: item.hash }}
             className="text-muted-foreground hover:text-foreground hidden no-underline transition-colors sm:inline"
           >
             {t(item.key)}
-          </a>
+          </Link>
         ))}
         <LocaleSwitcher />
       </nav>
