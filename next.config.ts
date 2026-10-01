@@ -21,12 +21,15 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
  * on /call (see `booking-calendar.tsx`). The privacy page discloses it; no
  * other page loads anything from it.
  */
+const isDev = process.env.NODE_ENV === 'development'
+
 const securityHeaders = [
   {
     key: 'Content-Security-Policy',
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' https://app.cal.com",
+      // React needs eval() in development only (callstack reconstruction).
+      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://app.cal.com`,
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob:",
       "font-src 'self'",
