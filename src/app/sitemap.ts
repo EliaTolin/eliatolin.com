@@ -4,7 +4,7 @@ import { localePath, routing } from '@/i18n/routing'
 import { siteConfig } from '@/config/site'
 
 // Every static route of the site, without its locale prefix.
-const routes = ['', '/privacy'] as const
+const routes = ['', '/call', '/privacy'] as const
 
 // Paths whose changes actually alter what the pages say.
 const CONTENT_PATHS = ['messages', 'src']

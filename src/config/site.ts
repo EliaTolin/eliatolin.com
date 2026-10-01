@@ -10,6 +10,11 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://eliatolin.com',
   // Official public contact address.
   email: 'elia.tolin@auroradigital.it',
+  // Cal.com event behind /call — `calLink` is `<username>/<event slug>`.
+  booking: {
+    calLink: 'elia-tolin/call-with-me',
+    url: 'https://cal.com/elia-tolin/call-with-me',
+  },
   links: {
     github: 'https://github.com/eliatolin',
     linkedin: 'https://it.linkedin.com/in/eliatolin',

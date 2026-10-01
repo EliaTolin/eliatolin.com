@@ -220,7 +220,21 @@
   "contact": {
     "title": "Costruiamo qualcosa insieme?",
     "text": "Per un progetto, una collaborazione o anche solo per confrontarci.",
-    "cta": "Scrivimi 👋"
+    "book": "Prenota una call 📅"
+  },
+  "booking": {
+    "metaTitle": "Prenota una call",
+    "eyebrow": "1 ora · Google Meet",
+    "title": "Prenota una call",
+    "intro": "Per un progetto, una collaborazione o anche solo per confrontarci. Scegli un orario libero e ci vediamo online.",
+    "steps": [
+      "Scegli giorno e ora",
+      "Scrivi in una riga di cosa vuoi parlare",
+      "Ti arriva l'invito con il link Meet"
+    ],
+    "notice": "Il calendario è fornito da Cal.com, cosa raccoglie è spiegato nella pagina privacy. Se non si vede, prenota direttamente su",
+    "emailLabel": "Preferisci scrivermi?",
+    "backHome": "Torna alla home"
   },
   "footer": {
     "copyright": "© {year} Elia Tolin",
@@ -229,16 +243,16 @@
   },
   "privacy": {
     "title": "Privacy",
-    "updated": "Aggiornata a settembre 2026",
+    "updated": "Aggiornata a ottobre 2026",
     "intro": "Questo è il mio sito personale. Il titolare del trattamento sono io, Elia Tolin, come persona fisica. Non c'è nessuna azienda dietro questa pagina: se hai domande su come funziona, scrivimi e ti rispondo io.",
     "sections": [
       {
         "title": "Statistiche di visita",
-        "body": "Uso Simple Analytics, un servizio olandese con i dati conservati nell'Unione Europea. Non usa cookie, non traccia le persone tra un sito e l'altro, non registra indirizzi IP e non crea profili: raccoglie solo numeri aggregati, come quante volte è stata aperta una pagina. Per questo non vedi nessun banner sui cookie — non c'è niente da consentire. Lo script è servito da questo dominio, quindi il tuo browser non apre nessuna connessione verso terze parti."
+        "body": "Uso Simple Analytics, un servizio olandese con i dati conservati nell'Unione Europea. Non usa cookie, non traccia le persone tra un sito e l'altro, non registra indirizzi IP e non crea profili: raccoglie solo numeri aggregati, come quante volte è stata aperta una pagina. Per questo non vedi nessun banner sui cookie — non c'è niente da consentire. Lo script è servito da questo dominio, quindi per le statistiche il tuo browser non apre nessuna connessione verso terze parti."
       },
       {
         "title": "Cookie",
-        "body": "Questo sito usa un solo cookie, NEXT_LOCALE, che serve a ricordare se stai leggendo in italiano o in inglese. È un cookie tecnico: senza, il sito non saprebbe che lingua mostrarti. Non ci sono cookie di profilazione, di marketing o di terze parti."
+        "body": "Questo sito usa un solo cookie, NEXT_LOCALE, che serve a ricordare se stai leggendo in italiano o in inglese. È un cookie tecnico: senza, il sito non saprebbe che lingua mostrarti. Non ci sono cookie di profilazione, di marketing o di terze parti. L'unica eccezione è la pagina /call: il calendario delle prenotazioni è fornito da Cal.com, che può impostare i propri cookie (vedi sotto)."
       },
       {
         "title": "Log del server",
@@ -247,6 +261,10 @@
       {
         "title": "Se mi scrivi",
         "body": "Se mi mandi un'email, leggo il tuo indirizzo e quello che mi hai scritto, e li uso solo per risponderti. Non finisci in nessuna newsletter, non giro il tuo indirizzo a nessuno e non lo uso per contattarti su altro."
+      },
+      {
+        "title": "Se prenoti una call",
+        "body": "Per le prenotazioni uso Cal.com, un servizio di Cal.com, Inc. con sede negli Stati Uniti. Il calendario è integrato nella pagina /call: quando apri quella pagina il tuo browser si collega ai server di Cal.com, che vede quindi il tuo indirizzo IP e può impostare i propri cookie. Per quella parte valgono la privacy policy e la cookie policy di Cal.com. Le altre pagine del sito non contattano Cal.com. Se prenoti, Cal.com raccoglie il nome, l'email e quello che scrivi nel modulo, e li usa per creare l'appuntamento e mandarti l'invito; io li ricevo nel mio calendario e li uso solo per la call. Non finisci in nessuna newsletter e non giro i tuoi dati a nessuno."
       },
       {
         "title": "Link verso altri siti",

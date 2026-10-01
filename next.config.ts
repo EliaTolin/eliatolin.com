@@ -16,17 +16,22 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
  * bootstrap script, and `json-ld.tsx` renders inline JSON-LD. The directive
  * still blocks every off-origin script, which is the attack this actually
  * defends against.
+ *
+ * The one third-party origin is app.cal.com, for the booking calendar embedded
+ * on /call (see `booking-calendar.tsx`). The privacy page discloses it; no
+ * other page loads anything from it.
  */
 const securityHeaders = [
   {
     key: 'Content-Security-Policy',
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline'",
+      "script-src 'self' 'unsafe-inline' https://app.cal.com",
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob:",
       "font-src 'self'",
-      "connect-src 'self'",
+      "connect-src 'self' https://app.cal.com",
+      'frame-src https://app.cal.com',
       "object-src 'none'",
       "base-uri 'self'",
       "form-action 'self'",

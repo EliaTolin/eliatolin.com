@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl'
 import { siteConfig } from '@/config/site'
 import { Section } from '@/components/home/section'
 import { ObfuscatedEmail } from '@/components/obfuscated-email'
+import { Link } from '@/i18n/navigation'
 
 function LinkedInIcon() {
   return (
@@ -42,9 +43,12 @@ export function Contact() {
             <LinkedInIcon />
             LinkedIn
           </a>
-          <ObfuscatedEmail className="bg-accent-deep text-foreground order-first inline-block rounded-full px-8 py-3.5 text-base font-bold no-underline transition-opacity hover:opacity-90 sm:order-none">
-            {t('cta')}
-          </ObfuscatedEmail>
+          <Link
+            href="/call"
+            className="bg-accent-deep text-foreground order-first inline-block rounded-full px-8 py-3.5 text-base font-bold no-underline transition-opacity hover:opacity-90 sm:order-none"
+          >
+            {t('book')}
+          </Link>
           <a
             href={siteConfig.links.github}
             target="_blank"
