@@ -93,12 +93,12 @@ function CallContent() {
           style={delay(180)}
         >
           <Image
-            src="/photos/elia.jpg"
+            src="/photos/elia-call.jpg"
             alt={t('photoAlt')}
-            width={750}
-            height={900}
+            width={1024}
+            height={1536}
             priority
-            className="aspect-5/6 w-full rounded-[28px] object-cover"
+            className="aspect-4/5 w-full rounded-[28px] object-cover object-top"
           />
           <InviteCard
             title={t('inviteTitle')}
