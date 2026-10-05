@@ -6,6 +6,7 @@ import { siteConfig } from '@/config/site'
  */
 export const projectLinks: Record<string, string> = {
   'Aurora Digital': siteConfig.links.aurora,
+  AuroraForma: siteConfig.links.auroraforma,
   Builtdifferent: siteConfig.links.builtdifferent,
   Ermanno: siteConfig.links.ermanno,
   'Quiz Radioamatori': siteConfig.links.quizRadioamatori,

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { siteConfig } from '@/config/site'
+import { cn } from '@/lib/utils'
 import { Section, SectionTitle } from '@/components/home/section'
 
 type Offer = {
@@ -9,14 +10,29 @@ type Offer = {
   highlight: string
   stats: { value: string; label: string }[]
   /** Separate brand the offer is sold under, shown as a logo link at the bottom. */
-  brand?: { courses: string; cta: string }
+  brand?: { cta: string }
 }
 
 const BRANDS = {
+  dev: {
+    name: 'Aurora Digital',
+    href: siteConfig.links.aurora,
+    logo: '/logos/aurora-digital-wordmark.svg',
+    // Horizontal light-on-dark logo, 640×180.
+    width: 128,
+    height: 36,
+    imgClass: 'h-8',
+    underline: 'decoration-accent',
+  },
   training: {
     name: 'AuroraForma',
     href: siteConfig.links.auroraforma,
     logo: '/logos/auroraforma.svg',
+    // Wordmark viewBox is 6221×888.
+    width: 140,
+    height: 20,
+    imgClass: 'h-5',
+    underline: 'decoration-mint',
   },
 } as const
 
@@ -82,17 +98,19 @@ function OfferCard({
         {offer.text}
         <strong className="text-foreground font-semibold">{offer.highlight}</strong>
       </p>
-      <div className="mt-5 flex flex-wrap items-center gap-x-7 gap-y-3">
-        {offer.stats.map((stat, i) => (
-          <PencilStat
-            key={stat.label}
-            value={stat.value}
-            label={stat.label}
-            color={colors[i % colors.length] ?? 'accent'}
-            tilt={i % 2 === 0 ? -2 : 2}
-          />
-        ))}
-      </div>
+      {offer.stats.length > 0 && (
+        <div className="mt-5 flex flex-wrap items-center gap-x-7 gap-y-3">
+          {offer.stats.map((stat, i) => (
+            <PencilStat
+              key={stat.label}
+              value={stat.value}
+              label={stat.label}
+              color={colors[i % colors.length] ?? 'accent'}
+              tilt={i % 2 === 0 ? -2 : 2}
+            />
+          ))}
+        </div>
+      )}
       {brand && offer.brand && (
         <a
           href={brand.href}
@@ -100,18 +118,22 @@ function OfferCard({
           rel="noreferrer noopener"
           className="group mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 border-t pt-5"
         >
-          {/* Wordmark viewBox is 6221×888. */}
-          <Image
-            src={brand.logo}
-            alt={brand.name}
-            width={140}
-            height={20}
-            className="h-5 w-auto"
-          />
-          <span className="text-muted-foreground font-mono text-xs">
-            {offer.brand.courses}
+          {/* Same row height for every logo, so the dividers line up. */}
+          <span className="flex h-8 items-center">
+            <Image
+              src={brand.logo}
+              alt={brand.name}
+              width={brand.width}
+              height={brand.height}
+              className={cn('w-auto', brand.imgClass)}
+            />
           </span>
-          <span className="decoration-mint group-hover:text-foreground ml-auto text-sm font-bold underline decoration-2 underline-offset-4">
+          <span
+            className={cn(
+              'group-hover:text-foreground ml-auto text-sm font-bold underline decoration-2 underline-offset-4',
+              brand.underline,
+            )}
+          >
             {offer.brand.cta}
           </span>
         </a>
@@ -128,7 +150,7 @@ export function Business() {
       <SectionTitle>{t('title')}</SectionTitle>
       <p className="text-muted-foreground mt-3 max-w-2xl text-[17px]">{t('intro')}</p>
       <div className="mt-10 grid gap-4.5 md:grid-cols-2">
-        <OfferCard offer={t.raw('dev') as Offer} colors={['amber']} />
+        <OfferCard offer={t.raw('dev') as Offer} colors={['amber']} brand={BRANDS.dev} />
         <OfferCard
           offer={t.raw('training') as Offer}
           colors={['mint']}
@@ -137,17 +159,6 @@ export function Business() {
       </div>
       <p className="text-muted-foreground mt-7 max-w-3xl text-sm leading-relaxed">
         {t('sectors')}
-      </p>
-      <p className="mt-6 text-base">
-        {t('ctaQuestion')}{' '}
-        <a
-          href={siteConfig.links.aurora}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="decoration-accent hover:text-accent-bright font-bold underline decoration-2 underline-offset-4"
-        >
-          {t('ctaAction')}
-        </a>
       </p>
     </Section>
   )

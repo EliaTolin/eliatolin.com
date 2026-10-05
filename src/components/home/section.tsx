@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
-import { logos } from '@/config/logos'
+import { logos, wordmarks } from '@/config/logos'
 
 export function Section({
   id,
@@ -92,5 +92,21 @@ export function LogoTile({
         className="size-full object-contain"
       />
     </div>
+  )
+}
+
+/** A brand's wordmark, or nothing when none is registered for `name`. */
+export function Wordmark({ name, className }: { name: string; className?: string }) {
+  const mark = wordmarks[name]
+  if (!mark) return null
+
+  return (
+    <Image
+      src={mark.src}
+      alt={name}
+      width={mark.width}
+      height={mark.height}
+      className={cn('w-auto', className ?? mark.className)}
+    />
   )
 }

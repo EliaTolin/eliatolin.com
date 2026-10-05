@@ -106,8 +106,19 @@
         "logo": "Builtdifferent"
       },
       {
-        "emoji": "📱",
+        "emoji": "🎓",
         "tone": "accent",
+        "title": "2026 — AuroraForma is born",
+        "text": "After years of AI training through Aurora Digital, training gets a brand of its own: hands-on courses that bring AI into everyday work, from the Spec-Driven Development method to data security.",
+        "link": {
+          "label": "See AuroraForma's courses →",
+          "href": "https://auroraforma.it"
+        },
+        "logo": "AuroraForma"
+      },
+      {
+        "emoji": "📱",
+        "tone": "mint",
         "title": "Today I build my own products and work with companies",
         "text": "My products are born from problems I had: the app I needed didn't exist, so I wrote it. Through Aurora Digital I work with companies every day as a developer and consultant, while leading the tech at Ermanno, a logistics startup.",
         "celebration": "Around 234,000 people use software I wrote 🎉"
@@ -137,9 +148,17 @@
         "name": "Aurora Digital",
         "role": "Founder · since 2022",
         "tone": "accent",
-        "text": "My consulting practice: custom software development and, through AuroraForma, AI training for company dev teams.",
+        "text": "My consulting and development practice: custom software for companies, from mobile apps to firmware.",
         "metric": "Consulting",
-        "metricLabel": "and training"
+        "metricLabel": "and development"
+      },
+      {
+        "name": "AuroraForma",
+        "role": "Founder · since 2026",
+        "tone": "mint",
+        "text": "AI training for companies, under its own name: hands-on courses on real cases, on site or remote.",
+        "metric": "4 courses",
+        "metricLabel": "of AI training"
       }
     ]
   },
@@ -200,26 +219,21 @@
           "value": "113+",
           "label": "projects carrying my code"
         }
-      ]
+      ],
+      "brand": {
+        "cta": "See Aurora Digital →"
+      }
     },
     "training": {
       "title": "AI training for companies",
       "text": "I help teams bring AI into the way they work: generative-AI foundations, method, and hands-on labs on the company's real cases. Tailored formats, on site or remote. ",
       "highlight": "Structured process, against vibe coding.",
-      "stats": [
-        {
-          "value": "24+",
-          "label": "teams trained"
-        }
-      ],
+      "stats": [],
       "brand": {
-        "courses": "/sdd · /abcAI · /specs · /secAI",
         "cta": "See the courses →"
       }
     },
-    "sectors": "I've built management systems for the waste sector, firmware for home appliances, smart-city platforms, logistics software, fitness apps, e-commerce and manufacturing. I work from Emilia-Romagna: on site with companies in the area, remote across Italy.",
-    "ctaQuestion": "Have a project, or a team to train?",
-    "ctaAction": "It's all on auroradigital.it →"
+    "sectors": "I've built management systems for the waste sector, firmware for home appliances, smart-city platforms, logistics software, fitness apps, e-commerce and manufacturing. I work from Emilia-Romagna: on site with companies in the area, remote across Italy."
   },
   "contact": {
     "title": "Want to build something together?",

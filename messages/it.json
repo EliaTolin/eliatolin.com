@@ -106,8 +106,19 @@
         "logo": "Builtdifferent"
       },
       {
-        "emoji": "📱",
+        "emoji": "🎓",
         "tone": "accent",
+        "title": "2026 — Nasce AuroraForma",
+        "text": "Dopo anni di formazione AI con Aurora Digital, la formazione diventa un marchio a sé: corsi pratici per portare l'AI nel lavoro di tutti i giorni, dal metodo Spec-Driven Development alla sicurezza dei dati.",
+        "link": {
+          "label": "Scopri i corsi di AuroraForma →",
+          "href": "https://auroraforma.it"
+        },
+        "logo": "AuroraForma"
+      },
+      {
+        "emoji": "📱",
+        "tone": "mint",
         "title": "Oggi costruisco prodotti miei e lavoro con le aziende",
         "text": "I prodotti nascono da problemi che avevo io: non trovavo l'app che mi serviva, quindi l'ho scritta. E con Aurora Digital affianco ogni giorno le aziende come sviluppatore e consulente, mentre guido la tecnologia di Ermanno, una startup di logistica.",
         "celebration": "Circa 234.000 persone usano software che ho scritto 🎉"
@@ -137,9 +148,17 @@
         "name": "Aurora Digital",
         "role": "Founder · dal 2022",
         "tone": "accent",
-        "text": "La mia attività di consulenza: sviluppo software su misura e, con AuroraForma, formazione AI per i team delle aziende.",
+        "text": "La mia attività di consulenza e sviluppo: software su misura per le aziende, dall'app mobile al firmware.",
         "metric": "Consulenza",
-        "metricLabel": "e formazione"
+        "metricLabel": "e sviluppo"
+      },
+      {
+        "name": "AuroraForma",
+        "role": "Founder · dal 2026",
+        "tone": "mint",
+        "text": "La formazione AI per le aziende, con un nome suo: corsi pratici su casi reali, in presenza o da remoto.",
+        "metric": "4 corsi",
+        "metricLabel": "di formazione AI"
       }
     ]
   },
@@ -200,26 +219,21 @@
           "value": "113+",
           "label": "progetti con il mio codice"
         }
-      ]
+      ],
+      "brand": {
+        "cta": "Scopri Aurora Digital →"
+      }
     },
     "training": {
       "title": "Formazione AI per le aziende",
       "text": "Aiuto i team a portare l'AI nel proprio modo di lavorare: fondamenta dell'AI generativa, metodo e laboratorio su casi reali dell'azienda. Percorsi su misura, in presenza o da remoto. ",
       "highlight": "Processi strutturati, contro il vibe coding.",
-      "stats": [
-        {
-          "value": "24+",
-          "label": "team formati"
-        }
-      ],
+      "stats": [],
       "brand": {
-        "courses": "/sdd · /abcAI · /specs · /secAI",
         "cta": "Scopri i corsi →"
       }
     },
-    "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness, e-commerce e industria manifatturiera. Lavoro dall'Emilia-Romagna: in presenza con le aziende del territorio, da remoto in tutta Italia.",
-    "ctaQuestion": "Hai un progetto o vuoi formare il tuo team?",
-    "ctaAction": "Trovi tutto su auroradigital.it →"
+    "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness, e-commerce e industria manifatturiera. Lavoro dall'Emilia-Romagna: in presenza con le aziende del territorio, da remoto in tutta Italia."
   },
   "contact": {
     "title": "Costruiamo qualcosa insieme?",

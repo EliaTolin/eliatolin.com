@@ -24,8 +24,8 @@ const pageDescriptions: Record<Locale, string> = {
 
 const orgDescriptions: Record<'aurora' | 'ermanno', Record<Locale, string>> = {
   aurora: {
-    it: 'La mia attività di consulenza: sviluppo software su misura e, con AuroraForma, formazione AI per i team delle aziende.',
-    en: 'My consulting practice: custom software development and, through AuroraForma, AI training for company dev teams.',
+    it: "La mia attività di consulenza e sviluppo: software su misura per le aziende, dall'app mobile al firmware.",
+    en: 'My consulting and development practice: custom software for companies, from mobile apps to firmware.',
   },
   ermanno: {
     it: 'Le spedizioni si smistano da sole: dai DDT del gestionale ai mezzi, ai corrieri, alla dashboard.',
