@@ -2,8 +2,8 @@
 
 > Personal website of Elia Tolin — computer scientist and entrepreneur from
 > Italy. Head of Tech at Builtdifferent, co-founder & CTO of Ermanno,
-> founder of Aurora Digital and of the Flutter Modena community (500
-> members since 2022). Around
+> founder of Aurora Digital, of AuroraForma and of the Flutter Modena
+> community (500 members since 2022). Around
 > 234,000 people use software he wrote, across his own products and
 > platforms built for companies.
 
@@ -30,13 +30,13 @@ English (/en).
 - [Supawho](https://github.com/EliaTolin/supawho): manage multiple Supabase accounts
 - [GitHub profile](https://github.com/eliatolin)
 
-## Services (Aurora Digital)
+## Services
 
-- Custom software development: Flutter apps, Next.js + Supabase platforms, ESP32/STM32 firmware
-- AI training for companies: generative-AI foundations, Spec-Driven Development method, hands-on labs
-- [AuroraForma](https://auroraforma.it): Aurora Digital's AI-training brand, with the course catalog (/sdd, /abcAI, /specs, /secAI)
+- [Aurora Digital](https://auroradigital.it): consulting and custom software development since 2022 — Flutter apps, Next.js + Supabase platforms, ESP32/STM32 firmware
+- [AuroraForma](https://auroraforma.it): AI training for companies since 2026 — generative-AI foundations, the Spec-Driven Development method, hands-on labs on the company's real cases
 
 ## Contact
 
+- Book a call: https://eliatolin.com/call
 - Contact form and details: https://auroradigital.it
 - [LinkedIn](https://it.linkedin.com/in/eliatolin)
