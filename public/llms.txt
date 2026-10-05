@@ -34,6 +34,7 @@ English (/en).
 
 - Custom software development: Flutter apps, Next.js + Supabase platforms, ESP32/STM32 firmware
 - AI training for companies: generative-AI foundations, Spec-Driven Development method, hands-on labs
+- [AuroraForma](https://auroraforma.it): Aurora Digital's AI-training brand, with the course catalog (/sdd, /abcAI, /specs, /secAI)
 
 ## Contact
 

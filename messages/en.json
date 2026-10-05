@@ -137,7 +137,7 @@
         "name": "Aurora Digital",
         "role": "Founder · since 2022",
         "tone": "accent",
-        "text": "My consulting practice: custom software development and AI training for company dev teams.",
+        "text": "My consulting practice: custom software development and, through AuroraForma, AI training for company dev teams.",
         "metric": "Consulting",
         "metricLabel": "and training"
       }
@@ -211,7 +211,11 @@
           "value": "24+",
           "label": "teams trained"
         }
-      ]
+      ],
+      "brand": {
+        "courses": "/sdd · /abcAI · /specs · /secAI",
+        "cta": "See the courses →"
+      }
     },
     "sectors": "I've built management systems for the waste sector, firmware for home appliances, smart-city platforms, logistics software, fitness apps, e-commerce and manufacturing. I work from Emilia-Romagna: on site with companies in the area, remote across Italy.",
     "ctaQuestion": "Have a project, or a team to train?",
@@ -279,7 +283,7 @@
       },
       {
         "title": "Links to other sites",
-        "body": "This page links out a lot: to Aurora Digital, GitHub, LinkedIn, the outlets that wrote about me, and my own products. Once you are on another site, its rules apply, not these."
+        "body": "This page links out a lot: to Aurora Digital, AuroraForma, GitHub, LinkedIn, the outlets that wrote about me, and my own products. Once you are on another site, its rules apply, not these."
       },
       {
         "title": "Your rights",

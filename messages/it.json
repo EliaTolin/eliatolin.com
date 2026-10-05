@@ -137,7 +137,7 @@
         "name": "Aurora Digital",
         "role": "Founder · dal 2022",
         "tone": "accent",
-        "text": "La mia attività di consulenza: sviluppo software su misura e formazione AI per i team delle aziende.",
+        "text": "La mia attività di consulenza: sviluppo software su misura e, con AuroraForma, formazione AI per i team delle aziende.",
         "metric": "Consulenza",
         "metricLabel": "e formazione"
       }
@@ -211,7 +211,11 @@
           "value": "24+",
           "label": "team formati"
         }
-      ]
+      ],
+      "brand": {
+        "courses": "/sdd · /abcAI · /specs · /secAI",
+        "cta": "Scopri i corsi →"
+      }
     },
     "sectors": "Ho lavorato su gestionali per il settore rifiuti, firmware per elettrodomestici, piattaforme smart city, software per la logistica, app fitness, e-commerce e industria manifatturiera. Lavoro dall'Emilia-Romagna: in presenza con le aziende del territorio, da remoto in tutta Italia.",
     "ctaQuestion": "Hai un progetto o vuoi formare il tuo team?",
@@ -279,7 +283,7 @@
       },
       {
         "title": "Link verso altri siti",
-        "body": "Da qui si esce spesso: verso Aurora Digital, GitHub, LinkedIn, le testate che hanno scritto di me e i miei prodotti. Una volta che sei su un altro sito valgono le sue regole, non queste."
+        "body": "Da qui si esce spesso: verso Aurora Digital, AuroraForma, GitHub, LinkedIn, le testate che hanno scritto di me e i miei prodotti. Una volta che sei su un altro sito valgono le sue regole, non queste."
       },
       {
         "title": "I tuoi diritti",

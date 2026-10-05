@@ -24,8 +24,8 @@ const pageDescriptions: Record<Locale, string> = {
 
 const orgDescriptions: Record<'aurora' | 'ermanno', Record<Locale, string>> = {
   aurora: {
-    it: 'La mia attività di consulenza: sviluppo software su misura e formazione AI per i team delle aziende.',
-    en: 'My consulting practice: custom software development and AI training for company dev teams.',
+    it: 'La mia attività di consulenza: sviluppo software su misura e, con AuroraForma, formazione AI per i team delle aziende.',
+    en: 'My consulting practice: custom software development and, through AuroraForma, AI training for company dev teams.',
   },
   ermanno: {
     it: 'Le spedizioni si smistano da sole: dai DDT del gestionale ai mezzi, ai corrieri, alla dashboard.',
@@ -287,6 +287,13 @@ export function JsonLd({ locale }: { locale: Locale }) {
     foundingDate: '2022',
     founder: { '@id': personId },
     description: orgDescriptions.aurora[locale],
+    // AuroraForma is Aurora Digital's AI-training brand, not a separate company.
+    brand: {
+      '@type': 'Brand',
+      name: 'AuroraForma',
+      url: siteConfig.links.auroraforma,
+      logo: `${siteConfig.url}/logos/auroraforma.svg`,
+    },
   }
 
   const ermanno = {

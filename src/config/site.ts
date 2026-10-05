@@ -22,6 +22,7 @@ export const siteConfig = {
     builtdifferent: 'https://builtdifferent.it',
     ermanno: 'https://ermannologistica.it',
     aurora: 'https://auroradigital.it',
+    auroraforma: 'https://auroraforma.it',
     flutterModena: 'https://www.meetup.com/flutter-modena/',
     remoteCaching: 'https://pub.dev/packages/remote_caching',
     statusVaccini: 'https://github.com/EliaTolin/StatusVaccini',
