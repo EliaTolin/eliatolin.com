@@ -88,7 +88,8 @@
         "link": {
           "label": "See what I do with Aurora Digital →",
           "href": "https://auroradigital.it"
-        }
+        },
+        "wordmark": "Aurora Digital"
       },
       {
         "emoji": "🫂",
@@ -114,7 +115,8 @@
           "label": "See AuroraForma's courses →",
           "href": "https://auroraforma.it"
         },
-        "logo": "AuroraForma"
+        "logo": "AuroraForma",
+        "wordmark": "AuroraForma"
       },
       {
         "emoji": "📱",

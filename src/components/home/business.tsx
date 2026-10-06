@@ -17,11 +17,11 @@ const BRANDS = {
   dev: {
     name: 'Aurora Digital',
     href: siteConfig.links.aurora,
-    logo: '/logos/aurora-digital-wordmark.svg',
-    // Horizontal light-on-dark logo, 640×180.
-    width: 128,
-    height: 36,
-    imgClass: 'h-8',
+    logo: '/logos/auroradigital.svg',
+    // Viewbox 6147×1050; h-6 matches AuroraForma's h-5 type scale.
+    width: 140,
+    height: 24,
+    imgClass: 'h-6',
     underline: 'decoration-accent',
   },
   training: {

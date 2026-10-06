@@ -1,5 +1,11 @@
 import { useTranslations } from 'next-intl'
-import { LogoTile, Section, SectionTitle, Tile } from '@/components/home/section'
+import {
+  LogoTile,
+  Section,
+  SectionTitle,
+  Tile,
+  Wordmark,
+} from '@/components/home/section'
 import { cn } from '@/lib/utils'
 
 type Step = {
@@ -12,6 +18,8 @@ type Step = {
   logo?: string
   pressLabel?: string
   press?: { name: string; href: string }[]
+  /** Key into the wordmarks map; the full logo is shown under the title. */
+  wordmark?: string
   /** Optional call-to-visit rendered under the step. Opens in a new tab. */
   link?: { label: string; href: string }
 }
@@ -33,6 +41,7 @@ export function Story() {
             )}
             <div>
               <h3 className="font-display mt-1 text-2xl font-bold">{step.title}</h3>
+              {step.wordmark && <Wordmark name={step.wordmark} className="mt-3 mb-1" />}
               <p className="text-muted-foreground mt-2 text-[17px] leading-relaxed">
                 {step.text}
               </p>

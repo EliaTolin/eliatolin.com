@@ -20,7 +20,7 @@ function WordmarkHeader({ item }: { item: Role }) {
   // Fixed-height logo row so the role line aligns across wordmark cards.
   return (
     <div className="flex min-h-13 flex-col justify-center">
-      <div className="flex h-10 items-center">
+      <div className="flex h-8 items-center">
         {href ? (
           <a href={href} target="_blank" rel="noreferrer noopener" className="w-fit">
             {logo}

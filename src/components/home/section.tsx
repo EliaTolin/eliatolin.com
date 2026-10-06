@@ -95,7 +95,10 @@ export function LogoTile({
   )
 }
 
-/** A brand's wordmark, or nothing when none is registered for `name`. */
+/**
+ * A brand's wordmark at its registered height, or nothing when none is
+ * registered for `name`. `className` adds to it (spacing) and must not set a height.
+ */
 export function Wordmark({ name, className }: { name: string; className?: string }) {
   const mark = wordmarks[name]
   if (!mark) return null
@@ -106,7 +109,7 @@ export function Wordmark({ name, className }: { name: string; className?: string
       alt={name}
       width={mark.width}
       height={mark.height}
-      className={cn('w-auto', className ?? mark.className)}
+      className={cn('w-auto', mark.className, className)}
     />
   )
 }
