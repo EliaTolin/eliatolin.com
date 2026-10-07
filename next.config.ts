@@ -80,8 +80,10 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   typedRoutes: true,
   images: {
-    // Next's default is ['image/webp'] only. AVIF first, WebP as the fallback.
-    formats: ['image/avif', 'image/webp'],
+    // WebP only (Next's default). AVIF was dropped: on the production server
+    // one AVIF encode of the hero photo hung, and Next shares in-flight encodes
+    // per variant, so every request for it hung too — the portrait never loaded.
+    formats: ['image/webp'],
   },
   headers() {
     return Promise.resolve([{ source: '/:path*', headers: securityHeaders }])
