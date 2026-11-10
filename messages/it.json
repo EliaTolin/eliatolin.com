@@ -274,12 +274,12 @@
   },
   "privacy": {
     "title": "Privacy",
-    "updated": "Aggiornata a ottobre 2026",
+    "updated": "Aggiornata a novembre 2026",
     "intro": "Questo è il mio sito personale. Il titolare del trattamento sono io, Elia Tolin, come persona fisica. Non c'è nessuna azienda dietro questa pagina: se hai domande su come funziona, scrivimi e ti rispondo io.",
     "sections": [
       {
         "title": "Statistiche di visita",
-        "body": "Uso Simple Analytics, un servizio olandese con i dati conservati nell'Unione Europea. Non usa cookie, non traccia le persone tra un sito e l'altro, non registra indirizzi IP e non crea profili: raccoglie solo numeri aggregati, come quante volte è stata aperta una pagina. Per questo non vedi nessun banner sui cookie — non c'è niente da consentire. Lo script è servito da questo dominio, quindi per le statistiche il tuo browser non apre nessuna connessione verso terze parti."
+        "body": "Uso Simple Analytics, un servizio olandese con i dati conservati nell'Unione Europea. Non usa cookie, non traccia le persone tra un sito e l'altro, non registra indirizzi IP e non crea profili: raccoglie solo numeri aggregati, come quante volte è stata aperta una pagina. Per questo non vedi nessun banner sui cookie — non c'è niente da consentire. Lo script è servito da questo dominio. Accanto uso anche Umami, uno strumento open source che gira su un mio server (stats.auroradigital.it) e funziona allo stesso modo: niente cookie, niente profili, nessun indirizzo IP conservato. I dati non passano da nessuna azienda esterna."
       },
       {
         "title": "Cookie",

@@ -20,6 +20,9 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
  * The one third-party origin is app.cal.com, for the booking calendar embedded
  * on /call (see `booking-calendar.tsx`). The privacy page discloses it; no
  * other page loads anything from it.
+ *
+ * stats.auroradigital.it is the self-hosted Umami instance (cookieless page
+ * analytics), loaded on every page from the locale layout.
  */
 const isDev = process.env.NODE_ENV === 'development'
 
@@ -29,11 +32,11 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       // React needs eval() in development only (callstack reconstruction).
-      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://app.cal.com`,
+      `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://app.cal.com https://stats.auroradigital.it`,
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob:",
       "font-src 'self'",
-      "connect-src 'self' https://app.cal.com",
+      "connect-src 'self' https://app.cal.com https://stats.auroradigital.it",
       'frame-src https://app.cal.com',
       "object-src 'none'",
       "base-uri 'self'",

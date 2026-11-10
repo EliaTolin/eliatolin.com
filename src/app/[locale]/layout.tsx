@@ -10,6 +10,7 @@ import { SiteHeader } from '@/components/site-header'
 import { JsonLd } from '@/components/json-ld'
 import { SiteFooter } from '@/components/site-footer'
 import { SimpleAnalytics } from '@simpleanalytics/next'
+import Script from 'next/script'
 
 // Mirrors the guard in next.config.ts: without the proxy rewrites the script
 // would just 404, so do not render it at all locally.
@@ -113,6 +114,16 @@ export default async function LocaleLayout({
           <SiteFooter />
         </NextIntlClientProvider>
         {analyticsEnabled && <SimpleAnalytics hostname={siteConfig.domain} />}
+        {analyticsEnabled && (
+          // Self-hosted Umami (Aurora Digital). `data-domains` keeps previews
+          // and localhost out of the stats.
+          <Script
+            src="https://stats.auroradigital.it/s.js"
+            data-website-id="80d35eb9-ecde-469b-94a6-4931c90cd21f"
+            data-domains={siteConfig.domain}
+            strategy="afterInteractive"
+          />
+        )}
       </body>
     </html>
   )
