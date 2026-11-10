@@ -279,7 +279,7 @@
     "sections": [
       {
         "title": "Visit statistics",
-        "body": "I use Simple Analytics, a Dutch service that keeps its data in the European Union. It sets no cookies, does not track people across sites, does not record IP addresses and builds no profiles: it collects only aggregate numbers, such as how many times a page was opened. That is why you see no cookie banner — there is nothing to consent to. The script is served from this domain. Alongside it I also use Umami, an open-source tool running on a server of mine (stats.auroradigital.it) that works the same way: no cookies, no profiles, no IP addresses stored. The data never goes through any outside company."
+        "body": "I use Umami, an open-source tool running on a server of mine (stats.auroradigital.it). It sets no cookies, does not track people across sites, stores no IP addresses and builds no profiles: it collects only aggregate numbers, such as how many times a page was opened. That is why you see no cookie banner — there is nothing to consent to. The data stays on my server and never goes through any outside company."
       },
       {
         "title": "Cookies",

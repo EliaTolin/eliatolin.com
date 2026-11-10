@@ -48,9 +48,6 @@ export default function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Match everything except Next internals, the API routes, the Simple
-  // Analytics proxy paths and static files. `/simple/*` has no file extension,
-  // so without the explicit exclusion next-intl would try to locale-prefix the
-  // analytics event queue and break it.
-  matcher: ['/((?!api|_next|_vercel|simple|.*\\..*).*)'],
+  // Match everything except Next internals, the API routes and static files.
+  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
 }
