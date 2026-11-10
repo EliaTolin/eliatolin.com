@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Elia Tolin — Computer Scientist",
+    "title": "Elia Tolin — Costruisco software e aziende",
     "description": "Classe 1999. Ho iniziato a programmare a 16 anni, a 17 ho fondato la mia prima startup. Oggi circa 234.000 persone usano software che ho scritto.",
     "titleTemplate": "%s · Elia Tolin"
   },
@@ -14,7 +14,7 @@
   },
   "hero": {
     "hello": "Ciao, sono Elia 👋",
-    "title": "computer scientist e libero professionista",
+    "title": "costruisco software e aziende",
     "headlineStart": "Trasformo problemi che ho avuto in ",
     "headlineHighlight": "prodotti che avrei voluto avere",
     "headlineEnd": ".",

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Elia Tolin — Computer Scientist",
+    "title": "Elia Tolin — I build software and companies",
     "description": "Born in 1999. Started coding at 16, founded my first startup at 17. Today around 234,000 people use software I wrote.",
     "titleTemplate": "%s · Elia Tolin"
   },
@@ -14,7 +14,7 @@
   },
   "hero": {
     "hello": "Hi, I'm Elia 👋",
-    "title": "computer scientist & independent consultant",
+    "title": "I build software and companies",
     "headlineStart": "I turn problems I've had into ",
     "headlineHighlight": "products I wish I'd had",
     "headlineEnd": ".",

@@ -15,11 +15,11 @@ import { localePath, type Locale } from '@/i18n/routing'
 
 // Shared across locales — deliberately not translated per render.
 const personDescription =
-  'Computer scientist e imprenditore. Costruisco prodotti digitali e affianco le aziende come sviluppatore e consulente.'
+  'Imprenditore. Costruisco prodotti digitali e affianco le aziende come sviluppatore e consulente.'
 
 const pageDescriptions: Record<Locale, string> = {
-  it: 'Computer scientist e imprenditore. Costruisco prodotti digitali e affianco le aziende come sviluppatore e consulente.',
-  en: 'Computer scientist and entrepreneur. I build digital products and work with companies as a developer and consultant.',
+  it: 'Imprenditore. Costruisco prodotti digitali e affianco le aziende come sviluppatore e consulente.',
+  en: 'Entrepreneur. I build digital products and work with companies as a developer and consultant.',
 }
 
 const orgDescriptions: Record<'aurora' | 'ermanno', Record<Locale, string>> = {
@@ -203,7 +203,7 @@ export function JsonLd({ locale }: { locale: Locale }) {
       width: 750,
       height: 900,
     },
-    jobTitle: 'Computer Scientist',
+    jobTitle: 'Imprenditore',
     description: personDescription,
     birthPlace: {
       '@type': 'Place',
